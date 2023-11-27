@@ -1,12 +1,14 @@
 use cs3380
 
 -- Order matters!
+drop table if exists waypoints;
+drop table if exists flightRoutes;
+drop table if exists waypointRoutes;
+drop table if exists airportsAndAirlines;
+drop table if exists routesAndAirlines;
 drop table if exists aircraft;
-drop table if exists orderLineItems;
-drop table if exists orders;
-drop table if exists people;
-drop table if exists products;
-drop table if exists provinces;
+drop table if exists airlines;
+drop table if exists airports;
 
 create table aircraft (
     aircraftID varchar(100) primary key,
@@ -57,7 +59,7 @@ create table flightRoutes(
 );
 
 create table waypointRoutes(
-    id integer primary key references flightRoutes(id),
+    id integer primary key references flightRoutes(routeID),
     name varchar(5) references waypoints
 );
 
