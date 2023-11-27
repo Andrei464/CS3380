@@ -9,9 +9,9 @@ drop table if exists airportsAndAirlines;
 drop table if exists aircraft;
 drop table if exists airlines;
 drop table if exists airports;
-drop table if exists continents;
-drop table if exists countries;
 drop table if exists cities;
+drop table if exists countries;
+drop table if exists continents;
 
 
 create table continents
@@ -72,7 +72,7 @@ create table flightRoutes
     carrier text,
     airlineID varchar(100) references airlines,
     passengers integer,
-    distance float,
+    distance integer,
     aircraftID text
 );
 
