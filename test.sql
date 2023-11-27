@@ -52,8 +52,8 @@ create table waypoints
 create table flightRoutes
 (
     routeID integer primary key IDENTITY(1,1),
-    orig varchar(4) not null references airports(icaoCode),
-    dest varchar(4) not null references airports(icaoCode),
+    origin varchar(4) not null references airports(icaoCode),
+    destination varchar(4) not null references airports(icaoCode),
     monthFlown integer,
     carrier text,
     airlineID varchar(100) references airlines,
