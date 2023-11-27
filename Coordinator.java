@@ -16,7 +16,7 @@ public class Coordinator{
     public static void main(String[] args){
 
             // startup sequence
-            Database db = new Database("awd");
+            Database db = new Database("library.db");
             runConsole(db);
 
             System.out.println("Exiting...");
