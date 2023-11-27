@@ -8,7 +8,8 @@ drop table if exists people;
 drop table if exists products;
 drop table if exists provinces;
 
-create table aircraft (
+create table aircraft
+(
     aircraftID varchar(100) primary key,
     modelNum text not null,
     typeOfAircraft text not null
