@@ -9,6 +9,44 @@ drop table if exists airportsAndAirlines;
 drop table if exists aircraft;
 drop table if exists airlines;
 drop table if exists airports;
+drop table if exists continents;
+drop table if exists countries;
+drop table if exists cities;
+
+
+create table continents
+(
+    iso_region varchar(2) primary key,
+    continent text
+);
+
+create table countries
+(
+    iso_country varchar(2) PRIMARY key,
+    country text,
+    iso_region varchar(2) references continents
+);
+
+create table cities
+(
+    city_id integer primary key IDENTITY(1,1),
+    municipality text not null,
+    iso_country varchar(2) references countries
+);
+
+create table airports
+(
+    icaoCode varchar(4) not null primary key,--4 letter code, globally unqiue
+    iataCode varchar(3),--3 letter code
+    airportID text not null,--unique neumeric id
+    airportName text not null,--name of the airport
+    elevation integer not null,--in feet
+    latitude float not null,--coordinates
+    longitude float not null,--coordinates
+    airportSize text not null,--large mdeium small
+    localCode varchar(3) not null,--3 letter code
+    city_id integer not null references cities
+);
 
 create table aircraft
 (
@@ -25,30 +63,6 @@ create table airlines
     name text not null
 );
 
-create table airports
-(
-    icaoCode varchar(4) not null primary key,--4 letter code, globally unqiue
-    iataCode varchar(3),--3 letter code
-    airportID text not null,--unique neumeric id
-    name text not null,--name of the airport
-    elevation integer not null,--in feet
-    latitude float not null,--coordinates
-    longitude float not null,--coordinates
-    municipality text not null,--city
-    airportSize text not null,--large mdeium small
-    isoCountry varchar(2) not null,--2 letter code
-    region text not null,--Country-Region
-    continent varchar(2) not null,--NA
-    localCode varchar(3) not null,--3 letter code
-);
-
-create table waypoints
-(
-    name varchar(5) primary key,
-    latitude float not null,
-    longitude float not null,
-);
-
 create table flightRoutes
 (
     routeID integer primary key IDENTITY(1,1),
@@ -60,6 +74,14 @@ create table flightRoutes
     passengers integer,
     distance float,
     aircraftID text
+);
+
+
+create table waypoints
+(
+    name varchar(5) primary key,
+    latitude float not null,
+    longitude float not null,
 );
 
 create table waypointRoutes
