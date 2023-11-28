@@ -1,3 +1,5 @@
+use cs3380
+
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13431, 'Palacios', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16292, 'Whitesburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13851, 'Pontotoc', 'US');
@@ -69,7 +71,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1829, 'Vil
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21543, 'Searcy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1448, 'Miguel Hidalgo', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7313, 'Blair', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1920, 'Dos Caños', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1920, 'Dos Caï¿½os', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13910, 'Pottsboro', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25252, 'Sable Island', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13197, 'Ocean Park', 'US');
@@ -79,13 +81,13 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8101, 'Cha
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20547, 'Norwalk', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15185, 'Sterling', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2761, 'Belmar/Farmingdale', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1036, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1036, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8049, 'Chalmette', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14002, 'Quakertown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1877, 'Hato Grande', 'NI');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24125, 'Upland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17331, 'Cairo', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1321, 'La Purísima', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1321, 'La Purï¿½sima', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16317, 'Wilbur', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26382, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11281, 'Kidron', 'US');
@@ -111,12 +113,12 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2660, 'Jek
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21113, 'Prince Frederick', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20332, 'Needham', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11390, 'Kulm', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1720, 'Tacámbaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1720, 'Tacï¿½mbaro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13246, 'Old Monroe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26767, 'Ivanhoe', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16371, 'Willow', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20365, 'New Brunswick', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1118, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1118, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21060, 'Port St Lucie', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16632, 'Agawam', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7715, 'Byers', 'US');
@@ -243,7 +245,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4841, 'Laf
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14502, 'San Diego', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22368, 'West Long Branch', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4744, 'Fort Worth', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (608, 'Monjarás', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (608, 'Monjarï¿½s', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24037, 'Springer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24030, 'Southold (Suffolk County)', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (841, 'Nacozari', 'MX');
@@ -306,7 +308,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15574, 'To
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26751, 'Hebron', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11139, 'Justin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10063, 'Glenburn', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25459, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25459, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25625, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14057, 'Rantoul', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15216, 'Stilwell', 'US');
@@ -590,7 +592,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2801, 'Val
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8266, 'Clarkton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5920, 'Packwood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11146, 'Kaktovik', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1072, 'Comondú', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1072, 'Comondï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20581, 'Oconto', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2766, 'Davis/Woodland/Winters', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9834, 'Fredericksburg', 'US');
@@ -624,7 +626,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11857, 'Lo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14861, 'Skellytown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19940, 'Martinsburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1207, 'Gabriel Zamora', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (163, 'Limón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (163, 'Limï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7397, 'Boonville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7865, 'Cape Charles', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13911, 'Pottstown', 'US');
@@ -701,7 +703,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20434, 'Ne
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8377, 'Colebrook', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25050, 'Nahanni Butte', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24738, 'Melfort', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1126, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1126, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12481, 'Mifflinburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15194, 'Stevensville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22541, 'Woodland Hills', 'US');
@@ -723,8 +725,8 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3806, 'Win
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5571, 'Greenfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11485, 'Lake George', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5599, 'Haskell', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1109, 'Cuauhtémoc', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (560, 'Copón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1109, 'Cuauhtï¿½moc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (560, 'Copï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4286, 'Greensburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25724, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17868, 'Dallas', 'US');
@@ -834,7 +836,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1383, 'Mel
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12042, 'Mahomet', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23878, 'Reelsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22101, 'Union', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1112, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1112, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4576, 'Atoka', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7710, 'Butte', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11354, 'Knightsen', 'US');
@@ -846,7 +848,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13193, 'Oc
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10304, 'Greer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23937, 'Salemburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15257, 'Stratford', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25110, 'Wekweètì', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25110, 'Wekweï¿½tï¿½', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18843, 'Haverstraw', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19979, 'Mccomb', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11661, 'Lenoir', 'US');
@@ -867,7 +869,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11908, 'Lo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24076, 'Talkeetna', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1969, 'Vieques Island', 'PR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3673, 'Fremont', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25771, 'Bécancour', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25771, 'Bï¿½cancour', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2319, 'Page', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18705, 'Greensboro', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2520, 'Shelter Cove', 'US');
@@ -895,7 +897,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13584, 'Pe
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25650, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (365, '', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7399, 'Boring', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (267, 'San Nicolás', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (267, 'San Nicolï¿½s', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8899, 'Deland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9582, 'Farmville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16411, 'Windsor', 'US');
@@ -1144,7 +1146,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16602, 'Ze
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3524, 'Moncks Corner', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25016, 'Hafford', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2046, 'Middle Caicos', 'TC');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1940, 'Playón Chico', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1940, 'Playï¿½n Chico', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1846, 'Yautepec', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26034, 'Smoky Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2436, 'Pasco', 'US');
@@ -1264,7 +1266,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26636, 'Ca
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25392, 'Gull Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10166, 'Grafton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14038, 'Ramona', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3148, 'Cañon City', 'US');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3148, 'Caï¿½on City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17744, 'Cook', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2028, 'Gustavia', 'BL');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5089, 'Warwick', 'US');
@@ -1316,7 +1318,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18296, 'Fa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6258, 'Chignik', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11615, 'Leakey', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4590, 'Belle Plaine', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1488, 'Mulegé', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1488, 'Mulegï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25610, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12295, 'Mc Gregor', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (493, 'Cap Haitien', 'HT');
@@ -1354,7 +1356,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8138, 'Che
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6773, 'Arcadia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16698, 'Alton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1717, 'Sto. Domingo Zanatepec', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (558, 'Concepción', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (558, 'Concepciï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3877, 'Belle Glade', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10711, 'Hineston', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7846, 'Canton', 'US');
@@ -1449,7 +1451,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25388, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19008, 'Houston', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (458, 'Melchor de Mencos', 'GT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3878, 'Berryville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26023, 'Sept-Îles', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26023, 'Sept-ï¿½les', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22358, 'West Epping', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2849, 'Shelbyville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17286, 'Brunswick', 'US');
@@ -1532,7 +1534,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14904, 'So
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15836, 'Vesper', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4296, 'Hastings', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18415, 'Fort Rucker/Wicksburg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25531, 'Ste-Agnès-de-Dundee', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25531, 'Ste-Agnï¿½s-de-Dundee', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15605, 'Tremont City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13667, 'Phillipsburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5922, 'Paicines', 'US');
@@ -1599,7 +1601,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10503, 'Ha
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14001, 'Quakertown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13446, 'Palmer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20948, 'Pinellas Park', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24289, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24289, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18353, 'Fort Collins', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7677, 'Burnell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (204, 'San Pedro', 'CR');
@@ -1730,12 +1732,12 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20849, 'Pe
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4156, 'Abbeville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3859, 'American Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4472, 'Tappahannock', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (609, 'Monte Líbano', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (609, 'Monte Lï¿½bano', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8621, 'Crane', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14933, 'Soperton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17806, 'Crestline', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17580, 'Clackamas', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (488, 'Sayaxché', 'GT');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (488, 'Sayaxchï¿½', 'GT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17500, 'Chelan', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2595, 'Ketchikan', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16431, 'Winnie', 'US');
@@ -1771,7 +1773,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14167, 'Ri
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16380, 'Willshire', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14872, 'Slater', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11277, 'Keyser', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1578, 'Querétaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1578, 'Querï¿½taro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21070, 'Portage', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16, 'Cat Island', 'BS');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15857, 'Vilonia', 'US');
@@ -1799,7 +1801,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1524, 'Ota
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19297, 'Kalispell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18813, 'Harrisonburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7297, 'Bishopville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (229, 'San José', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (229, 'San Josï¿½', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14550, 'Santa Fe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3618, 'Ashland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2324, 'Bozeman', 'US');
@@ -1898,7 +1900,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6381, 'Jon
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9432, 'Escobas', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20991, 'Plaquemine', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19958, 'Matheson', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26787, "L'Île d'Entrée", 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26787, "L'ï¿½le d'Entrï¿½e", 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24277, 'Kingston', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14450, 'Salem', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22823, 'Big Lake', 'US');
@@ -1996,7 +1998,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26392, '',
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25810, 'Chibougamau', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2191, 'Cedar Rapids', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4602, 'Blakesburg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (745, 'Tuxtla Gutiérrez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (745, 'Tuxtla Gutiï¿½rrez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2680, 'Twin Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25867, 'Geraldton', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3406, 'Lopez', 'US');
@@ -2023,7 +2025,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6097, 'Sto
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23904, 'Roggen', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3681, 'Granby', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19473, 'Laguna Park', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (682, 'Cancún', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (682, 'Cancï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4690, 'Deer Lodge', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2185, 'Huntsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19738, 'Los Angeles', 'US');
@@ -2032,7 +2034,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21787, 'St
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14464, 'Salina', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10057, 'Glen Rose', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7709, 'Butte', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26788, 'La Crête', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26788, 'La Crï¿½te', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12023, 'Madison', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26052, 'Summerside', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22927, 'Campbellton', 'US');
@@ -2141,7 +2143,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11947, 'Lu
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26921, 'Ridgetown', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19939, 'Martinsburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25076, 'Rockyford', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (162, 'Limón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (162, 'Limï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14707, 'Shandon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21864, 'Stuttgart', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8864, 'Decatur', 'US');
@@ -2176,10 +2178,10 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7593, 'Bro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5478, 'Erie', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7359, 'Boardman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8310, 'Clifton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1911, 'Jaqué', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1911, 'Jaquï¿½', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7840, 'Canisteo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7617, 'Bryan', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25237, 'Lac Éon', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25237, 'Lac ï¿½on', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26449, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21305, 'Rock Rapids', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5390, 'Concord', 'US');
@@ -2200,12 +2202,12 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14667, 'Se
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13475, 'Pandale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4484, 'Twin Mountain', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21957, 'Theinsville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1487, 'Mulegé', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1487, 'Mulegï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17541, 'Chicago', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26432, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3142, 'Big Creek', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10422, 'Hammondsport', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1667, 'Santa Rosalía', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1667, 'Santa Rosalï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3198, 'Marana', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19111, 'Indianapolis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (188, 'Puntarenas', 'CR');
@@ -2228,7 +2230,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18580, 'Gi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24573, 'Churchill Falls', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24946, 'Kugaaruk', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1619, 'San Fernando', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1074, 'Comondú', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1074, 'Comondï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13707, 'Pinedale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14957, 'South Naknek', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26209, '', 'CA');
@@ -2237,7 +2239,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13704, 'Pi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26587, 'Big Creek', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21599, 'Shell Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3653, 'Cordele', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1033, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1033, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13697, 'Pinckneyville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11132, 'Justin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24387, 'Edenvale', 'CA');
@@ -2332,7 +2334,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18634, 'Go
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (571, 'El Encinal', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23883, 'Richland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24352, 'Medicine Hat', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25167, 'Ste-Véronique', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25167, 'Ste-Vï¿½ronique', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24326, 'Hanover', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17051, 'Benton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12954, 'New London', 'US');
@@ -2528,7 +2530,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2197, 'Wil
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4126, 'Woodland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14304, 'Rogers', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21483, 'Sanford', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1640, 'San Martin De Bolaños', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1640, 'San Martin De Bolaï¿½os', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6864, 'Athens', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6543, 'Aguila', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8741, 'Cuyama', 'US');
@@ -2660,9 +2662,9 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14599, 'Sc
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6925, 'Avant', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23653, 'Murrieta', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10377, 'Haines', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1119, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1119, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11653, 'Lemmon', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1160, 'Ejido Melitón Albáñez Domíngez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1160, 'Ejido Melitï¿½n Albï¿½ï¿½ez Domï¿½ngez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7988, 'Cedar Fort', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21822, 'State College', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4072, 'Salem', 'US');
@@ -2703,7 +2705,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23031, 'Co
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19050, 'Hudson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (665, '', 'JM');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7152, 'Belmont', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (876, 'Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (876, 'Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4221, 'Danville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12880, 'Nashville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1278, 'Huamanguillo', 'MX');
@@ -2739,7 +2741,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3997, 'Lev
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4109, 'Warner Springs', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10390, 'Halliday', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15306, 'Summit', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24357, 'Trois-Rivières', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24357, 'Trois-Riviï¿½res', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1328, 'La Yesca', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6965, 'Baldwin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3904, 'Coolin', 'US');
@@ -2789,11 +2791,11 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7472, 'Bra
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18614, 'Glocester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19131, 'Indianola', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16385, 'Wilmington', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (790, 'Santa Rosalía', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (790, 'Santa Rosalï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4835, 'Kingfisher', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26457, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26860, 'Oie Lake', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (160, 'Limón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (160, 'Limï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7800, 'Cameron', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25046, 'Maxville', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24635, 'Key Lake', 'CA');
@@ -2965,7 +2967,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15436, 'Te
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24820, 'Chestermere', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22524, 'Wise', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22819, 'Bethel', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1322, 'La Purísima', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1322, 'La Purï¿½sima', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25826, 'Cranbrook', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4135, 'Unalaska', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12057, 'Manassas', 'US');
@@ -3065,7 +3067,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (396, 'San 
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20487, 'Norcross/Millinocket/', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8606, 'Covington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18254, 'Fairfax', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24526, 'Îles-de-la-Madeleine', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24526, 'ï¿½les-de-la-Madeleine', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11232, 'Kendall', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23305, 'Harrisburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9622, 'Fentress', 'US');
@@ -3112,7 +3114,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11237, 'Ke
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5280, 'Blythe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8822, 'Dayton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19526, 'Lancaster', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26961, 'St-Étienne-des-Grès', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26961, 'St-ï¿½tienne-des-Grï¿½s', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19344, 'Kenedy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9467, 'Eunice', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18458, 'Foxburg', 'US');
@@ -3207,7 +3209,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14322, 'Ro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7691, 'Burrton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10075, 'Glenwood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26868, 'Peace River', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1066, 'Colotlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1066, 'Colotlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1740, 'Tapachula', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2542, 'Wildwood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6296, 'Port Alice', 'US');
@@ -3278,7 +3280,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16487, 'Wo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18502, 'Frisco', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22356, 'West Columbia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8867, 'Decatur', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1897, 'Panamá City', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1897, 'Panamï¿½ City', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13773, 'Platteville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18460, 'Frankfort', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10289, 'Greenville', 'US');
@@ -3794,7 +3796,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7040, 'Bat
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21226, 'Reidsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11504, 'Lake Village', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19821, 'Lubbock', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1116, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1116, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23747, 'Orono', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13892, 'Portland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (898, 'Aldama', 'MX');
@@ -3808,7 +3810,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10480, 'Ha
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20639, 'Ontario', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22552, 'Worcester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26855, 'Nordegg', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1125, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1125, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15782, 'Valparaiso', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4698, 'Downers Grove', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25142, '', 'CA');
@@ -3828,7 +3830,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (490, 'Xuct
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18564, 'Gettysburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24163, 'Washington Court House', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19977, 'Mc Kinney', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1108, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1108, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (786, 'Cozumel', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1015, 'Chapala', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20350, 'New Bern', 'US');
@@ -3994,7 +3996,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20727, 'Pa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16837, 'Atlantis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17044, 'Bemidji', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5902, 'Ochopee', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (135, 'Cañas', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (135, 'Caï¿½as', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17007, 'Bel Air', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1333, 'Lagos de Moreno', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26095, 'Walkerton', 'CA');
@@ -4046,11 +4048,11 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11355, 'Kn
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17522, 'Chestertown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16280, 'White Salmon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4527, 'Fort Campbell/Hopkinsville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1041, 'Ciudad Constitución', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1041, 'Ciudad Constituciï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2289, 'Melbourne', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22671, '', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7759, 'Caliente', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26906, 'Québec', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26906, 'Quï¿½bec', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18508, 'Gadsden', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15903, 'Waitsfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22097, 'Umatilla', 'US');
@@ -4182,7 +4184,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10827, 'Ho
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25682, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19260, 'Johnson City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22373, 'West Palm Beach', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (253, 'Caibarién', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (253, 'Caibariï¿½n', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7253, 'Beverly', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21921, 'Taneytown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6260, 'Devils Lake', 'US');
@@ -4296,7 +4298,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12550, 'Mi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25056, 'Nueltin Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23011, 'Clyde', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3020, 'Allentown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1860, 'Zitácuaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1860, 'Zitï¿½cuaro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17753, 'Corona', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22928, 'Canandaigua', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22686, 'Akutan', 'US');
@@ -4358,7 +4360,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4982, 'Pra
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24580, 'Digby', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5082, 'Waldron', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12522, 'Milton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (955, 'Bahía Tortugas', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (955, 'Bahï¿½a Tortugas', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11127, 'Juntura', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13205, 'Octa', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19647, 'Linden', 'US');
@@ -4513,7 +4515,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7981, 'Ced
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1006, 'Carlos Carrillo', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9909, 'Galena', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6683, 'Amelia', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (835, 'Cosalá', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (835, 'Cosalï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17061, 'Berryville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20096, 'Middletown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9158, 'East Haddam', 'US');
@@ -4549,7 +4551,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3748, 'Per
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8942, 'Denison', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25261, 'Clyde River', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20503, 'North Brunswick', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1923, 'Finca Jaguá', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1923, 'Finca Jaguï¿½', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18990, 'Houston', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24238, 'Winslow', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22754, 'Atlanta', 'US');
@@ -4688,7 +4690,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14810, 'Sh
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26538, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12381, 'Memphis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9239, 'Ekalaka', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1944, 'Río Hato', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1944, 'Rï¿½o Hato', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17329, 'Byhalia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8164, 'Chico', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17736, 'Connersville', 'US');
@@ -4870,7 +4872,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1591, 'Rio
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10273, 'Greensboro', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20706, 'Oviedo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12579, 'Moberly', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (595, 'La Unión', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (595, 'La Uniï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22258, 'Washington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1933, 'Mandinga', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12822, 'Muleshoe', 'US');
@@ -4928,7 +4930,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7736, 'Cad
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1994, 'Cidra', 'PR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15849, 'Vidalia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6484, 'Abbeville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (833, 'Comitán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (833, 'Comitï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3591, 'Jacksonville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8343, 'Clovis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23774, 'Parachute', 'US');
@@ -5032,7 +5034,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18608, 'Gl
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2423, 'Fort Collins/Loveland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3965, 'Guernsey', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1134, 'Culiacan', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24281, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24281, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21359, 'Rutherfordton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12166, 'Marion', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19478, 'Lake Arthur', 'US');
@@ -5065,7 +5067,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4097, 'Tol
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20641, 'Opelousas', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2379, 'Traverse City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26504, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (721, 'Torreón', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (721, 'Torreï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20784, 'Pasadena', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2845, 'Rochester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11068, 'Jensen', 'US');
@@ -5085,7 +5087,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6821, 'Art
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4988, 'Red Oak', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3641, 'Bumpass', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9845, 'Fredonia', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1672, 'Santiago de Querétaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1672, 'Santiago de Querï¿½taro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16879, 'Austin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23043, 'Cresson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14718, 'Sharon Center', 'US');
@@ -5239,7 +5241,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20073, 'Mi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6708, 'Anchorage', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12475, 'Midvale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6736, 'Annville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (161, 'Limón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (161, 'Limï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17389, 'Cape Girardeau', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13894, 'Poseyville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16184, 'West Dundee', 'US');
@@ -5609,7 +5611,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21883, 'Su
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16009, 'Washtucna', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (342, '', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5388, 'Colville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24379, 'Sept-Îles', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24379, 'Sept-ï¿½les', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19588, 'Lebanon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24011, 'Silver Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5380, 'Clinton', 'US');
@@ -5621,7 +5623,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1947, 'Tub
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8746, 'Dade City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19901, 'Marathon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19719, 'Long Lake', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1312, 'Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1312, 'Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24061, 'Sturgis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9441, 'Essex', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (232, 'Trinidad', 'CR');
@@ -5665,7 +5667,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21783, 'St
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25593, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24539, 'Arthur East', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8443, 'Colville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1566, 'Puente de Camotlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1566, 'Puente de Camotlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6405, 'Skwentna', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3351, 'Ocotillo Wells', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10500, 'Harrisville', 'US');
@@ -5773,7 +5775,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3941, 'Eli
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17638, 'Cocoa', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1402, 'Mexicali', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19930, 'Mars', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (965, 'Benito Juárez/Cancún', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (965, 'Benito Juï¿½rez/Cancï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10803, 'Horseheads', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22308, 'Watsonville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (935, 'Atoyac de Alvarez', 'MX');
@@ -5847,7 +5849,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21966, 'Th
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25518, 'St-Basile', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18076, 'Eagle Point', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24361, 'Langley', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26836, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26836, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16247, 'Wetumka', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22394, 'Westbrook', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21947, 'Tewksbury', 'US');
@@ -5894,7 +5896,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4016, 'Mor
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3399, 'Cocoa Beach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21089, 'Portland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20437, 'Newbury Park', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26001, 'Québec', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26001, 'Quï¿½bec', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17450, 'Center Ossipee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2693, 'Vernal', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (357, '', 'CU');
@@ -5955,7 +5957,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12852, 'My
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24988, 'Diavik', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13400, 'Oxford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22330, 'Webster', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1908, 'Boca de Sábalo', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1908, 'Boca de Sï¿½balo', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16492, 'Woodstock', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14419, 'Rustburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13083, 'North East', 'US');
@@ -6088,7 +6090,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18012, 'Do
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4659, 'Clintonville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12947, 'New Hope', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19368, 'Ketchum', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25950, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25950, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23171, 'Firebaugh', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11492, 'Lake Panasoffkee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1536, 'Palizada', 'MX');
@@ -6119,7 +6121,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11775, 'Li
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20805, 'Pauloff Harbor /Sanak Is/', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13963, 'Prophetstown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17027, 'Belleview', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25942, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25942, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13561, 'Paxton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9890, 'Fulda', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23792, 'Pembroke', 'US');
@@ -6299,7 +6301,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19084, 'Hu
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13164, 'Oak Park', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14259, 'Rochester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18584, 'Gilroy', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1653, 'San Pedro Garza García', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1653, 'San Pedro Garza Garcï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4324, 'John Day', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9669, 'Fletcher', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13186, 'Oakwood', 'US');
@@ -6389,7 +6391,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12136, 'Ma
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12145, 'Maribel', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12273, 'Mc Alpin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20653, 'Orchard Lake', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1900, 'Colón', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1900, 'Colï¿½n', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26236, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (582, 'Gracias', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4896, 'Minden', 'US');
@@ -6446,7 +6448,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23922, 'Ru
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22960, 'Cerro Gordo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7370, 'Boise', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12474, 'Midvale', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24936, 'La Tabatière', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24936, 'La Tabatiï¿½re', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11876, 'Loris', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21578, 'Seward', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24746, 'Silver Falls', 'CA');
@@ -6524,7 +6526,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13517, 'Pa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23225, 'Gainesville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19183, 'Issaquah', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8751, 'Daingerfield', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (136, 'Cañas', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (136, 'Caï¿½as', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11351, 'Klondyke', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24156, 'Warren', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15176, 'Stephenville', 'US');
@@ -6619,7 +6621,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (530, 'Agua
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8735, 'Custer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18587, 'Gladwin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17837, 'Cumming', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1314, 'Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1314, 'Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4761, 'Gooding', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7561, 'Brodhead', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18298, 'Fayetteville', 'US');
@@ -6663,7 +6665,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9449, 'Est
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25595, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26356, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14548, 'Santa Elena', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25424, 'Lebel-sur-Quévillon', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25424, 'Lebel-sur-Quï¿½villon', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26973, 'Stevensville', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25126, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18390, 'Fort Payne', 'US');
@@ -6812,7 +6814,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16719, 'An
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11559, 'Lansing', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9471, 'Eureka', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16916, 'Banner Elk', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1485, 'Mulegé', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1485, 'Mulegï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13131, 'Norway', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9898, 'Gaffney', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18359, 'Fort Collins', 'US');
@@ -6867,7 +6869,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6404, 'Sea
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25721, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26590, 'Bissett', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17340, 'Camas', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1754, 'Tecomán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1754, 'Tecomï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23715, 'Oakland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18384, 'Fort Myers', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12324, 'Meadview', 'US');
@@ -7129,7 +7131,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4004, 'Man
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14468, 'Salisbury', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16268, 'White Bear Township', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19141, 'Interlachen', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1030, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1030, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22314, 'Waupun', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18288, 'Farmington Hills', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15659, 'Tullahoma', 'US');
@@ -7194,7 +7196,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3346, 'Mou
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (736, 'Durango', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14382, 'Roxbury', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22334, 'Weehawken', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25156, 'Lac-à-Beauce', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25156, 'Lac-ï¿½-Beauce', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10317, 'Gretna', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19819, 'Lubbock', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11624, 'Lebanon', 'US');
@@ -7226,7 +7228,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24174, 'Wa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1738, 'Tapachula', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10649, 'Herman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1254, 'Guaymas', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1931, 'La Plantación', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1931, 'La Plantaciï¿½n', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22147, 'Vandergrift', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18399, 'Fort Rucker/Goodman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4085, 'Somerville', 'US');
@@ -7325,7 +7327,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8655, 'Cri
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2973, 'Monroe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18563, 'Germantown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8678, 'Crossville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25159, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25159, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1224, 'Guachochi', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14485, 'Samson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26272, '', 'CA');
@@ -7601,8 +7603,8 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3454, 'Che
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1351, 'Loma Bonita', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26505, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6824, 'Arthur', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25021, 'Île aux Coudres', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (247, 'Guantánamo', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25021, 'ï¿½le aux Coudres', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (247, 'Guantï¿½namo', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24266, 'Vancouver', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10745, 'Hollis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14625, 'Seaboard', 'US');
@@ -7857,7 +7859,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19600, 'Le
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24455, 'Chibougamau', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7938, 'Carthage', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3050, 'Lakeview', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1604, 'San Andrés Cohamiata', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1604, 'San Andrï¿½s Cohamiata', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25478, 'Paradise Hill', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16068, 'Watkins Glen', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2902, 'Petersburg', 'US');
@@ -7994,7 +7996,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (995, 'Camp
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11696, 'Lewistown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3255, 'Dover', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17204, 'Bradenton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (423, 'La Cabaña', 'SV');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (423, 'La Cabaï¿½a', 'SV');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2517, 'Hudson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25169, 'Temagami', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22117, 'Upperville', 'US');
@@ -8030,7 +8032,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25339, 'De
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (495, 'Port-de-Paix', 'HT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25023, 'Imperial', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5301, 'Buhl', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1022, 'Chimaltitán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1022, 'Chimaltitï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25504, 'Rougemont', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7880, 'Carbondale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19116, 'Indianapolis', 'US');
@@ -8083,7 +8085,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23313, 'He
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5864, 'Myrtle Creek', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2907, 'Shreveport', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11453, 'Lagrange', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (628, 'Santa Rosa de Copán', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (628, 'Santa Rosa de Copï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12737, 'Morton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18323, 'Flemington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23680, 'New Orleans', 'US');
@@ -8122,7 +8124,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15735, 'Up
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15969, 'Warren', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11796, 'Live Oak', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16453, 'Wisner', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1032, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1032, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25919, 'Little Parker Island', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13691, 'Pike Road', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14966, 'Southwick', 'US');
@@ -8186,7 +8188,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8641, 'Cre
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (282, 'Juan de la Cruz', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5938, 'Pelican Rapids', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15291, 'Sullivan', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (420, 'Espíritu Santo', 'SV');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (420, 'Espï¿½ritu Santo', 'SV');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22744, 'Artesia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3478, 'Gold Beach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23238, 'Goffstown', 'US');
@@ -8204,7 +8206,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21546, 'Se
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23329, 'Hillsboro', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22030, 'Trenton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17399, 'Carencro', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1641, 'San Martín de Bolaños', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1641, 'San Martï¿½n de Bolaï¿½os', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18304, 'Fernandina Beach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24535, 'Hearst', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5598, 'Haskell', 'US');
@@ -8236,7 +8238,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13307, 'Or
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20596, 'Oklahoma City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8445, 'Comanche', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16878, 'Austin', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (574, 'El Limón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (574, 'El Limï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24282, 'Saskatoon', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1461, 'Montemorelos', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16409, 'Winchester', 'US');
@@ -8430,15 +8432,15 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19343, 'Ke
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15479, 'The Grove/Ranch', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20252, 'Mount Storm', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22545, 'Woodstock', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (793, 'Tuxtla Gutiérrez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (793, 'Tuxtla Gutiï¿½rrez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10078, 'Glide', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25359, 'Elko', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11338, 'Kirkersville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19501, 'Lake Louise', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23714, 'Oakland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1444, 'Miguel Hidalgo', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1073, 'Comondú', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26002, 'Québec', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1073, 'Comondï¿½', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26002, 'Quï¿½bec', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7311, 'Blair', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7064, 'Bear River', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13326, 'Oregon City', 'US');
@@ -8657,7 +8659,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5614, 'Hen
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19815, 'Lower Bank', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12620, 'Monroe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13939, 'Prescott', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (828, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (828, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26966, 'St. Albert', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15795, 'Vancouver', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10069, 'Glenmora', 'US');
@@ -8752,7 +8754,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7573, 'Bro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14430, 'Sabot', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12704, 'Morganton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19091, 'Huston', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1122, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1122, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17295, 'Buffalo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6016, 'Saguache', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11663, 'Lenoir City', 'US');
@@ -8796,7 +8798,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8499, 'Con
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20504, 'North Conway', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16525, 'Wyocena', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9364, 'Elwood', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (704, 'Querétaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (704, 'Querï¿½taro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8633, 'Creighton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16090, 'Waverly', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4417, 'Pikeville', 'US');
@@ -8942,7 +8944,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26708, 'Fa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15048, 'Springfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12274, 'Mc Alpin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9691, 'Floyd', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1202, 'Escárcega', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1202, 'Escï¿½rcega', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20585, 'Odessa', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24471, 'Toronto', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12796, 'Mountain Grove', 'US');
@@ -8998,7 +9000,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13719, 'Pi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12247, 'May Creek', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19308, 'Kansas City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25476, 'Oxbow', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1953, 'Corazón de Jesús and Narganá Islands', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1953, 'Corazï¿½n de Jesï¿½s and Narganï¿½ Islands', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (181, 'Pococi', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7442, 'Boynton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4743, 'Fort Wayne', 'US');
@@ -9089,7 +9091,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14247, 'Ro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1184, 'Emiliano Zapata', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21828, 'Steamboat Springs', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10320, 'Griffin', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1069, 'Comitán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1069, 'Comitï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24584, 'Alliston', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6244, 'Zillah', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13855, 'Poplar Bluff', 'US');
@@ -9112,7 +9114,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7659, 'Bun
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17916, 'De Witt', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3471, 'Fairmont', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4838, 'Kingsville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24509, 'Rivière Rouge', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24509, 'Riviï¿½re Rouge', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19894, 'Mansfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26806, 'London', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (866, '', 'MX');
@@ -9270,7 +9272,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5413, 'Cro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8679, 'Crosswind Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6037, 'Savannah', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19367, 'Ketchum', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25949, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25949, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5012, 'San Saba', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23580, 'Mayfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1878, 'Jinotega', 'NI');
@@ -9316,10 +9318,10 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10168, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1003, 'Carbo', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25179, 'Montreal', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (510, 'Ahuas', 'HN');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1345, 'León', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1345, 'Leï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9556, 'Farewell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2691, 'Lewiston', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1570, 'Puerto Peñasco', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1570, 'Puerto Peï¿½asco', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19405, 'Kissimmee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4394, 'Norfolk MA', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12974, 'New Richmond', 'US');
@@ -9788,7 +9790,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21575, 'Se
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7635, 'Buckley', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19470, 'Lagrange', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12337, 'Medaryville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24708, 'Du Rocher-Percé', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24708, 'Du Rocher-Percï¿½', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20845, 'Peoria', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23271, 'Greenville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12865, 'Naples', 'US');
@@ -10061,7 +10063,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19386, 'Ki
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4608, 'Brewster', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3152, 'Chapel Hill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22551, 'Worcester', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1124, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1124, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26294, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (124, 'Nandayure', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5698, 'Kokomo', 'US');
@@ -10294,12 +10296,12 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2299, 'Kan
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23202, 'Fortine', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20655, 'Oregon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25935, 'Milton', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (732, 'Álamos', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (732, 'ï¿½lamos', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1175, 'El Nayar', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24540, 'Banff', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26205, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13905, 'Potlatch', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (134, 'Cañas', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (134, 'Caï¿½as', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9168, 'East Palestine', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4118, 'Wells', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25736, '', 'CA');
@@ -10351,7 +10353,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2032, 'Cas
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26586, 'Big Bay', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10062, 'Glen Ullin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13488, 'Paragould', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (272, 'Colón', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (272, 'Colï¿½n', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21837, 'Stevenson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8142, 'Chester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8769, 'Dandridge', 'US');
@@ -10440,7 +10442,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16356, 'Wi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6758, 'Appomattox', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (494, 'Jacmel', 'HT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17888, 'Danville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (760, 'Mulegé', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (760, 'Mulegï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7733, 'Cabot', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1553, 'Progreso', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4799, 'Holland', 'US');
@@ -10692,7 +10694,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21777, 'St
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10739, 'Holland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12418, 'Merriam', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9460, 'Eudora', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1115, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1115, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13046, 'Nine Mile Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4465, 'Stanley', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5153, 'Barter Island Lrrs', 'US');
@@ -10809,7 +10811,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15250, 'St
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6157, 'Vincentown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23373, 'Ida', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2856, 'Cape Girardeau', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25948, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25948, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6933, 'Avoca', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (592, 'La Lima', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18696, 'Green Bay', 'US');
@@ -10865,7 +10867,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25012, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10682, 'High Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6958, 'Bakersfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13365, 'Oskaloosa', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1569, 'Puerto Peñasco', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1569, 'Puerto Peï¿½asco', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12821, 'Muleshoe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19067, 'Huntington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20624, 'Olympia', 'US');
@@ -10912,7 +10914,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11548, 'La
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9335, 'Ellison Bay', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17671, 'Collinwood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12373, 'Melvern', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1037, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1037, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12962, 'New Lothrop', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15889, 'Waco', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1394, 'Mexicali', 'MX');
@@ -11168,7 +11170,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26775, 'Ke
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21856, 'Strawberry Point', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4198, 'Charlevoix', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6239, 'Yoakum', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (718, 'Ciudad Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (718, 'Ciudad Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7859, 'Canyon Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24108, 'Tremonton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25370, 'Fillmore', 'CA');
@@ -11185,7 +11187,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18466, 'Fr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9479, 'Eureka Springs', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12807, 'Mountain View', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11082, 'Jewett', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26791, 'Lac-Mégantic', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26791, 'Lac-Mï¿½gantic', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5760, 'Lowman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10784, 'Honeoye Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2342, 'Laconia', 'US');
@@ -11285,7 +11287,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4460, 'Smi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1492, 'Muzquiz', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24655, 'Vanderhoof', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4360, 'Mc Minnville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (974, 'Buenavista Tomatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (974, 'Buenavista Tomatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17937, 'Deerwood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2741, 'Quincy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23342, 'Holmdel', 'US');
@@ -11345,7 +11347,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2984, 'Rog
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11869, 'Lookout Mountain', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14275, 'Rockford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5107, 'Willmar', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26734, 'Grand-Mére', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26734, 'Grand-Mï¿½re', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16319, 'Wilburton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11205, 'Kechi', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7651, 'Bulverde', 'US');
@@ -11386,7 +11388,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3892, 'Cad
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12559, 'Minnesota Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11965, 'Luverne', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6259, 'Dahlonega', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (559, 'Copán Ruinas', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (559, 'Copï¿½n Ruinas', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13831, 'Pomeroy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6146, 'Van Buren', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15389, 'Talkeetna', 'US');
@@ -11666,7 +11668,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11672, 'Le
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8, 'Marsh Harbour', 'BS');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16376, 'Willow', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21799, 'St Louis', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1123, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1123, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3393, 'Palmdale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11126, 'Juntura', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17296, 'Buffalo', 'US');
@@ -11697,7 +11699,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7382, 'Bon
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23106, 'Dover', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16714, 'Amesbury', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17533, 'Cheyenne', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26679, 'Dépôt Baskatong', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26679, 'Dï¿½pï¿½t Baskatong', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6281, 'Kodiak', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22915, 'Burnsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14008, 'Queen City', 'US');
@@ -11905,7 +11907,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10940, 'In
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8504, 'Cookson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1658, 'San Vicente Tancuayalab', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9840, 'Fredericksburg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24445, 'Rivière-du-Loup', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24445, 'Riviï¿½re-du-Loup', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25189, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2108, 'Sacramento', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25282, 'Arnes', 'CA');
@@ -11929,7 +11931,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20724, 'Pa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14803, 'Shiocton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14759, 'Shelbyville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15358, 'Sycamore', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (606, 'Mocorón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (606, 'Mocorï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11311, 'Kingsbury', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3620, 'Austin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16589, 'Zachary', 'US');
@@ -11975,7 +11977,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7333, 'Blo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2059, 'Miami', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (301, 'San Pedro', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11505, 'Lake Wales', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (782, 'Yécora', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (782, 'Yï¿½cora', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24172, 'Wasilla', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18189, 'Enfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20128, 'Milton', 'US');
@@ -12087,7 +12089,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17335, 'Ca
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23129, 'Edna Bay', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6034, 'Sauk Centre', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (432, 'San Salvador', 'SV');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (627, 'Santa María', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (627, 'Santa Marï¿½a', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10161, 'Graceville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26648, 'Centralia', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8597, 'Coventryville', 'US');
@@ -12119,7 +12121,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23828, 'Pi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24276, 'Victoria', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11712, 'Lexington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17241, 'Bridgewater', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1201, 'Escárcega', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1201, 'Escï¿½rcega', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13485, 'Paradise', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3233, 'Thief River Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6690, 'Americus', 'US');
@@ -12186,7 +12188,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13775, 'Pl
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18032, 'Downers Grove', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13543, 'Pattonsburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20934, 'Phoenix', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26835, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26835, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8466, 'Concord', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13183, 'Oakridge', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7474, 'Branchville', 'US');
@@ -12211,7 +12213,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3163, 'Dec
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11309, 'Kings', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24228, 'Winchester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3565, 'Washington', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25022, 'Île-aux-Grues', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25022, 'ï¿½le-aux-Grues', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3624, 'Bellefontaine', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15838, 'Vevay', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20917, 'Phoenix', 'US');
@@ -12243,7 +12245,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16659, 'Al
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25641, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17190, 'Boulder', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7066, 'Beardstown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24731, 'Lac-à-la-Tortue', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24731, 'Lac-ï¿½-la-Tortue', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18132, 'El Dorado', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26543, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18639, 'Gonzales', 'US');
@@ -12314,7 +12316,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8035, 'Cen
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9324, 'Elkton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10003, 'Gerlach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14539, 'Sanger', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25500, 'Rivière Bell', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25500, 'Riviï¿½re Bell', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10730, 'Holcomb', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5471, 'Elk City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6578, 'Albany', 'US');
@@ -12787,7 +12789,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10186, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15594, 'Toyahvale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11135, 'Justin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25666, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (555, 'Cochino Pequeño Island', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (555, 'Cochino Pequeï¿½o Island', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8537, 'Corona', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24336, 'Pembroke', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15938, 'Wallowa', 'US');
@@ -12798,7 +12800,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25197, '',
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5509, 'Fort Hood/Killeen/', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2365, 'Niagara Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20412, 'New Roads', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1379, 'Mazatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1379, 'Mazatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11614, 'Leaf River', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7451, 'Brackettville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17896, 'Davenport', 'US');
@@ -12929,7 +12931,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20973, 'Pi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15991, 'Warsaw', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4444, 'Rigby', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22711, 'Amargosa Valley', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1544, 'Paraíso', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1544, 'Paraï¿½so', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11934, 'Lubec', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24967, 'Bronson Creek', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23367, 'Hydro', 'US');
@@ -13050,7 +13052,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3921, 'Del
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22930, 'Canton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1982, 'Dorado', 'PR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10888, 'Hurdsfield', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (225, 'Península de Osa', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (225, 'Penï¿½nsula de Osa', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13250, 'Old Washington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9534, 'Fairfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15556, 'Toledo', 'US');
@@ -13068,7 +13070,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (647, 'Waru
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12085, 'Manokotak', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1401, 'Mexicali', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26227, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1378, 'Mazatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1378, 'Mazatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17424, 'Carver', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15462, 'Terlingua', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (189, 'Puntarenas', 'CR');
@@ -13193,13 +13195,13 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22559, 'Wr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4191, 'Cable', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26534, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6246, 'Akiachak', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1071, 'Comondú', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1071, 'Comondï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16520, 'Wyndmere', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11671, 'Leola', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14151, 'Richey', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1176, 'El Nayar', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7366, 'Boggstown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25269, 'Tête-à-la-Baleine', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25269, 'Tï¿½te-ï¿½-la-Baleine', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17276, 'Broussard', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (761, '', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15496, 'Thompson Falls', 'US');
@@ -13236,7 +13238,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12582, 'Mo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25914, 'Langley', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (91, '', 'BZ');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16636, 'Ahsahka', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1922, 'Finca Fátima', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1922, 'Finca Fï¿½tima', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21355, 'Russellville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11060, 'Jefferson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2351, 'Ithaca', 'US');
@@ -13290,7 +13292,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18240, 'Ev
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24919, 'Akulivik', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14234, 'Roanoke', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16205, 'West Plains', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24601, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24601, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18529, 'Galliano', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3834, 'Alice', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5311, 'Caldwell', 'US');
@@ -13460,7 +13462,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11310, 'Ki
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14362, 'Rotan/Roby', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22337, 'Wellington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16588, 'Zachary', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26038, 'St-Jérôme', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26038, 'St-Jï¿½rï¿½me', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20906, 'Phoenix', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23437, 'Keyser', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24432, 'Yorkton', 'CA');
@@ -13496,7 +13498,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2117, 'Ont
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2439, 'Concord', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5339, 'Celina', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5064, 'Tishomingo', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1120, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1120, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9418, 'Era', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12696, 'Mora', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15654, 'Tularosa', 'US');
@@ -13606,7 +13608,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (860, '', '
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15939, 'Walls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22663, '', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3943, 'Elk Grove', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1313, 'Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1313, 'Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16745, 'Annandale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26147, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3809, 'Wiscasset', 'US');
@@ -13640,7 +13642,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12135, 'Ma
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5402, 'Corydon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8787, 'Darien', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23595, 'Mercer', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1583, 'Querétaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1583, 'Querï¿½taro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13299, 'Opelika', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5258, 'Belle Plaine', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22168, 'Venice', 'US');
@@ -13743,7 +13745,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12883, 'Na
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11730, 'Licking', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25640, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (355, '', 'CU');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24681, 'Dolbeau-St-Félicien', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24681, 'Dolbeau-St-Fï¿½licien', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15066, 'St Cloud', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4569, 'Alva', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26542, '', 'CA');
@@ -13755,11 +13757,11 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22598, 'Zi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24994, 'Echo Valley', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17284, 'Brownsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17919, 'Dearborn', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1038, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1038, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11290, 'Kilmarnock', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22225, 'Walla Walla', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11137, 'Justin', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1759, 'Tenosique de Pino Suárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1759, 'Tenosique de Pino Suï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5041, 'St James', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7411, 'Boswell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14281, 'Rocksprings', 'US');
@@ -13810,7 +13812,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17712, 'Co
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10485, 'Harrisburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13060, 'Nome', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18804, 'Harrisburg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26987, 'Témiscouata-sur-le-Lac', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26987, 'Tï¿½miscouata-sur-le-Lac', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14307, 'Rogersville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23175, 'Florence', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6432, 'Iliamna', 'US');
@@ -13942,7 +13944,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6442, 'Cle
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8376, 'Coldwater', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5219, 'Ashland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9657, 'Five Mile', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25947, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25947, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6469, 'Hoonah', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18069, 'Durham', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5486, 'Fairbanks', 'US');
@@ -13983,7 +13985,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5494, 'Far
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (34, 'North Cat Cay', 'BS');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25030, 'Kegaska', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19517, 'Lakeview', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (776, 'Ciudad Obregón', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (776, 'Ciudad Obregï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24145, 'Virginia Beach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11973, 'Lynchburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8557, 'Corvallis', 'US');
@@ -14048,7 +14050,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18681, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20324, 'Natrona Hgts', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15153, 'State College', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20043, 'Mesa', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1568, 'Puerto Cortés', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1568, 'Puerto Cortï¿½s', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4706, 'Eastport', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13229, 'Okeechobee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25428, 'Little Bear Lake', 'CA');
@@ -14062,8 +14064,8 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7863, 'Cap
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7395, 'Boonville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16584, 'Yulee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23671, 'New Athens', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1901, 'Chitré', 'PA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1644, 'San Matín de Las Pirámides', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1901, 'Chitrï¿½', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1644, 'San Matï¿½n de Las Pirï¿½mides', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15792, 'Van Nuys', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25726, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24801, 'Mayo', 'CA');
@@ -14152,7 +14154,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3486, 'Gri
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2652, 'Glendale', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16909, 'Baltimore', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25973, 'Ottawa', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1107, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1107, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7383, 'Bonifay', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4475, 'Thermopolis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4380, 'Mount Pleasant', 'US');
@@ -14308,7 +14310,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20558, 'Oa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21098, 'Pottsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18703, 'Greenfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26462, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (165, 'Limón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (165, 'Limï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23297, 'Hanford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2158, 'Bangor', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5583, 'Grundy', 'US');
@@ -14391,7 +14393,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1677, 'San
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2726, 'Richmond', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4807, 'Huntingburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14592, 'Scenic', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (182, 'Portalón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (182, 'Portalï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19279, 'Junction', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3940, 'Eldorado', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5262, 'Belvidere', 'US');
@@ -14424,7 +14426,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8784, 'Dap
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12785, 'Mount Vernon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2955, 'Fernandina Beach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15881, 'Vonore', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (587, 'Jocón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (587, 'Jocï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8348, 'Coalgate', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25805, 'Carleton Place', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12592, 'Modoc', 'US');
@@ -14449,7 +14451,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18337, 'Fo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12027, 'Madras', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11436, 'La Ward', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24983, 'Cowley', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1883, 'León', 'NI');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1883, 'Leï¿½n', 'NI');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12922, 'New Boston', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26266, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4083, 'Slidell', 'US');
@@ -14913,7 +14915,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18989, 'Ho
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25390, 'Green Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (631, 'Siguatepeque', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16024, 'Wasilla', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24649, 'St-Frédéric', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24649, 'St-Frï¿½dï¿½ric', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11816, 'Llano', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22592, 'Yuma', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3415, 'Beaver Falls', 'US');
@@ -15260,7 +15262,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3994, 'Lan
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2332, 'Kingman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10255, 'Greencastle', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23347, 'Hookstown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24504, 'Gaspé', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24504, 'Gaspï¿½', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12059, 'Mancelona', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25362, 'Emsdale', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (972, 'Buenaventura', 'MX');
@@ -15325,7 +15327,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18683, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5935, 'Paullina', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10750, 'Holly', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6175, 'Wasco', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25828, 'Deliné', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25828, 'Delinï¿½', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3854, 'Adel', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6181, 'Wausau', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8068, 'Chapel Hill', 'US');
@@ -15370,13 +15372,13 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19616, 'Le
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24694, 'Beauval', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8947, 'Denton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3740, 'North Wilkesboro', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1004, 'Carichí', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1004, 'Carichï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17531, 'Cheyenne', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21239, 'Revere', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6526, 'Adelanto', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10457, 'Harford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13970, 'Providence', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1113, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1113, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12447, 'Middle Bass Island', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10977, 'Island Grove', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22848, 'Blaine', 'US');
@@ -15475,7 +15477,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22411, 'We
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15446, 'Temple', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (709, 'Chihuahua', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18068, 'Durham', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24527, 'La Grande Rivière', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24527, 'La Grande Riviï¿½re', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15405, 'Taneytown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5544, 'Gettysburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22803, 'Beeville', 'US');
@@ -15588,7 +15590,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25909, 'Ki
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22858, 'Boaz', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19385, 'King County', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20967, 'Pittsburgh', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1546, 'Pátzcuaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1546, 'Pï¿½tzcuaro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11224, 'Kenai', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25522, 'St-Mathias', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10051, 'Glen Allan', 'US');
@@ -15673,7 +15675,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17403, 'Ca
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6362, 'Cotton Plant', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8494, 'Converse', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (169, 'Nicoya', 'CR');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1031, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1031, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21485, 'Sanger', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12238, 'Maupin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19906, 'Marianna', 'US');
@@ -15881,7 +15883,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16866, 'Au
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7637, 'Bucklin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8935, 'Delta Junction', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18116, 'Edgewater', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1344, 'León', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1344, 'Leï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20102, 'Midland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16819, 'Atlanta', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24194, 'West Linn', 'US');
@@ -16035,7 +16037,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23454, 'Ku
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16556, 'Yellow Springs', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1264, 'Guerrero', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3705, 'Lake Elsinore', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1909, 'El Real de Santa María', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1909, 'El Real de Santa Marï¿½a', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7304, 'Black River Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14377, 'Rowland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18441, 'Fort Worth', 'US');
@@ -16153,7 +16155,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20569, 'Oa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24183, 'Weippe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3928, 'Douglas', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9409, 'Enterprise', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (997, 'Campo René', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (997, 'Campo Renï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19265, 'Joliet', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3938, 'El Reno', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9340, 'Elma', 'US');
@@ -16287,8 +16289,8 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11670, 'Le
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14570, 'Sardinia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4170, 'Aztec', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21797, 'St Louis', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1121, 'Cuauhtémoc', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1542, 'Parácuaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1121, 'Cuauhtï¿½moc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1542, 'Parï¿½cuaro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14537, 'Sanger', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1863, 'Managua', 'NI');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10027, 'Gilberts', 'US');
@@ -16359,7 +16361,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26276, '',
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13843, 'Ponder', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10921, 'Indian Head', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9825, 'Franktown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1084, 'Coyoacán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1084, 'Coyoacï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6605, 'Alexander', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26573, 'Baie-Johan-Beetz', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (672, 'Bath', 'JM');
@@ -16515,7 +16517,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20240, 'Mo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24402, 'Castlegar', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22869, 'Boston', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15979, 'Warrenton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25262, 'Gamètì', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25262, 'Gamï¿½tï¿½', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1174, 'El Nayar', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10781, 'Hondo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13575, 'Pearsall', 'US');
@@ -16743,9 +16745,9 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11742, 'Li
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22852, 'Blooming Grove', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8209, 'Church Hill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25395, 'Hartney', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1898, 'Isla Colón', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1898, 'Isla Colï¿½n', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11399, 'La Belle', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (295, 'Playa Santa Lucía', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (295, 'Playa Santa Lucï¿½a', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8870, 'Decker', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4162, 'Alturas', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2958, 'Galena', 'US');
@@ -16977,7 +16979,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11365, 'Kn
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15799, 'Vassar', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23364, 'Hustisford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17575, 'City of Commerce', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (442, 'Puerto San José', 'GT');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (442, 'Puerto San Josï¿½', 'GT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20244, 'Mount Olive', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9831, 'Frederick', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11700, 'Lewistown', 'US');
@@ -17067,11 +17069,11 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13275, 'On
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25358, 'Elkin Creek', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6609, 'Alexandria', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7478, 'Brandon', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1805, 'Tototlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1805, 'Tototlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1382, 'Melchor Muzquiz', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15052, 'Springfield/Jasper', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15557, 'Tolleson', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25527, 'St. François Xavier', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25527, 'St. Franï¿½ois Xavier', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20730, 'Palacios', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19543, 'Lansing', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24684, 'Poplar River', 'CA');
@@ -17089,7 +17091,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2861, 'Bal
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15103, 'St Thomas', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11239, 'Kennebec', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12531, 'Milwaukie', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1840, 'Villagrán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1840, 'Villagrï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23280, 'Hagerstown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17355, 'Cameron', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20430, 'Newark', 'US');
@@ -17252,7 +17254,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2264, 'Tol
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22722, 'Anchorage', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13654, 'Peterstown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19791, 'Loudon', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (725, 'Minatitlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (725, 'Minatitlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3818, 'Lahaina', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7054, 'Bay View', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24737, 'Mcarthur River', 'CA');
@@ -17270,10 +17272,10 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14092, 'Re
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6594, 'Albion', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10087, 'Godley', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17865, 'Dallas', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (823, 'Autlán de Navarro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (823, 'Autlï¿½n de Navarro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16895, 'Bakersfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14995, 'Spencerport', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (744, 'Ciudad Constitución', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (744, 'Ciudad Constituciï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23022, 'Columbia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18490, 'Freeport', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19804, 'Louisville', 'US');
@@ -17321,7 +17323,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2727, 'Riv
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13277, 'Onamia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19331, 'Kauneonga Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22067, 'Tulsa', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (600, 'Limón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (600, 'Limï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14657, 'Seligman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9532, 'Fairfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4732, 'Festus', 'US');
@@ -17704,7 +17706,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10154, 'Go
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15235, 'Stonewall', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22602, '', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23589, 'Mead', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (283, 'La Asunción', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (283, 'La Asunciï¿½n', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15018, 'Spring Grove', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6643, 'Altha', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23643, 'Mount Dora', 'US');
@@ -17792,7 +17794,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17511, 'Ch
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12816, 'Mt Horeb', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2580, 'Cartersville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15518, 'Tignall', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24598, 'Lac-à-la-Tortue', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24598, 'Lac-ï¿½-la-Tortue', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2322, 'Bloomington/Normal', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26204, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11527, 'Lamar', 'US');
@@ -17908,7 +17910,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9105, 'Dur
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9925, 'Galveston', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23889, 'Riggins', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26605, 'Brussels', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26698, 'Éléonore Mine', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26698, 'ï¿½lï¿½onore Mine', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1346, 'Libres', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11034, 'Jarrell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15087, 'St Johns', 'US');
@@ -18072,7 +18074,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2217, 'Gra
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19781, 'Los Angeles', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16948, 'Baton Rouge', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25044, 'Mabel Lake', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (973, 'Buenavista Tomatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (973, 'Buenavista Tomatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12470, 'Midland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26324, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17718, 'Columbus', 'US');
@@ -18140,7 +18142,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3553, 'Sta
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9439, 'Esperance', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26273, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3100, 'Willits', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (685, 'San José del Cabo', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (685, 'San Josï¿½ del Cabo', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16576, 'Youngstown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13256, 'Olive Hill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25987, 'Port Hardy', 'CA');
@@ -18190,7 +18192,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23385, 'It
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5189, 'Albany', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2789, 'Steamboat Springs', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20361, 'New Brunswick', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1114, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1114, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8777, 'Danville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14043, 'Randall', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17873, 'Dallas', 'US');
@@ -18241,7 +18243,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1506, 'Nav
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22756, 'Atlanta', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23728, 'Okeechobee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19499, 'Lake Hubert', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1581, 'Querétaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1581, 'Querï¿½taro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7171, 'Bend', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4337, 'Lexington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4134, 'Petersburg', 'US');
@@ -18639,7 +18641,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9635, 'Fil
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10769, 'Homer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7255, 'Big Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13001, 'Newburg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25270, 'Whatì', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25270, 'Whatï¿½', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13171, 'Oakhill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9801, 'Foxhome', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16605, 'Zion', 'US');
@@ -18708,7 +18710,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6855, 'Asp
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14879, 'Sleepy Eye', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13317, 'Ore City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3863, 'Archer', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (794, 'Lázaro Cárdenas', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (794, 'Lï¿½zaro Cï¿½rdenas', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1605, 'San Andres Tuxtla', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16418, 'Winfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20884, 'Philadelphia', 'US');
@@ -18723,7 +18725,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8246, 'Cla
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18136, 'El Paso', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4519, 'Round Mountain', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13039, 'Niederwald', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1963, 'Tonosí', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1963, 'Tonosï¿½', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4726, 'Fairmont', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10973, 'Irwin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8945, 'Denton', 'US');
@@ -18925,7 +18927,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26743, 'Ha
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14749, 'Shelby', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11609, 'Laytonsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24392, 'Mont-Joli', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (701, 'San Luis Potosí', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (701, 'San Luis Potosï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18396, 'Fort Rucker Ozark', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17244, 'Brimfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11296, 'Kinder', 'US');
@@ -19074,7 +19076,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10995, 'Ja
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24132, 'Van Buren', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18206, 'Essex', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20163, 'Moline', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25074, 'Rivière Bonnard', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25074, 'Riviï¿½re Bonnard', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11840, 'Loganville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25839, 'East Angus', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26264, '', 'CA');
@@ -19084,7 +19086,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6672, 'Ama
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1211, 'General Teran', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19899, 'Marathon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (383, 'Azua', 'DO');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1310, 'Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1310, 'Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4113, 'Washington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3288, 'Cameron', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6568, 'Albany', 'US');
@@ -19111,7 +19113,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11792, 'Li
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4903, 'Monticello', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14169, 'Richmond', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3319, 'Houston', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26012, 'Rivière Blanche', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26012, 'Riviï¿½re Blanche', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3155, 'Clovis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3961, 'Georgetown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11049, 'Jay', 'US');
@@ -19148,7 +19150,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22198, 'Vi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19837, 'Lyndeborough', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13661, 'Philadelphia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5722, 'Lawrenceburg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1085, 'Coyoacán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1085, 'Coyoacï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10916, 'Independence', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4938, 'Okmulgee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11734, 'Ligonier', 'US');
@@ -19253,7 +19255,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20568, 'Oa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20479, 'Nicktown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6406, 'St. Augustine', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2763, 'Chicago', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (692, 'Mazatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (692, 'Mazatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12125, 'Marble Falls', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19048, 'Howell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5842, 'Montgomery', 'US');
@@ -19313,7 +19315,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (525, '', '
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5114, 'Wisconsin Rapids', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1097, 'Cuajimalpa', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2010, 'San German', 'PR');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1907, 'Bahia Piña', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1907, 'Bahia Piï¿½a', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14991, 'Spencer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21349, 'Ruby', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6833, 'Ashby', 'US');
@@ -19323,7 +19325,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23736, 'Om
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15696, 'Tylersburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12675, 'Montross', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22145, 'Vancouver', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25999, 'Québec', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25999, 'Quï¿½bec', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4857, 'Lehighton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17, 'Matthew Town', 'BS');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18226, 'Evansville', 'US');
@@ -19412,7 +19414,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8695, 'Cry
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9275, 'Eleva', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14641, 'Sedan', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18714, 'Greenville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (484, 'Nueva Generación Maya', 'GT');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (484, 'Nueva Generaciï¿½n Maya', 'GT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11006, 'Jackson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11752, 'Linden', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7624, 'Buchanan', 'US');
@@ -19556,7 +19558,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11572, 'La
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21082, 'Portland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13103, 'North Platte', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26235, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1813, 'Tuxpan de Bolaños', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1813, 'Tuxpan de Bolaï¿½os', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7458, 'Brackettville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25491, 'Quamichan Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16977, 'Beaumont', 'US');
@@ -19710,7 +19712,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26070, 'To
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23290, 'Hamilton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10179, 'Grand Coteau', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10658, 'Herreid', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (710, 'Ciudad Obregón', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (710, 'Ciudad Obregï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7036, 'Batesville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26180, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18941, 'Hood River', 'US');
@@ -19865,7 +19867,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13369, 'Os
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3541, 'Quakertown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9836, 'Fredericksburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23358, 'Howell', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (875, 'Acapulco de Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (875, 'Acapulco de Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20211, 'Morgan City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9682, 'Floresville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24481, 'Prince Edward County', 'CA');
@@ -19916,11 +19918,11 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18120, 'Ed
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11328, 'Kiowa', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24470, 'Port Hawkesbury', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5814, 'Meade', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (508, 'Mocorón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (508, 'Mocorï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15695, 'Tyler', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5354, 'Cheboygan', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15621, 'Trinidad', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (798, 'Tuxtla Gutiérrez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (798, 'Tuxtla Gutiï¿½rrez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10185, 'Grand Ridge', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21544, 'Searcy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22092, 'Tyngsboro', 'US');
@@ -20224,7 +20226,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8478, 'Con
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9061, 'Duanesburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4129, '', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9299, 'Elizabethville/Halifax', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (27041, 'Whitchurch–Stouffville', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (27041, 'Whitchurchï¿½Stouffville', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8664, 'Crosby', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8758, 'Dalmatia', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11799, 'Live Oak', 'US');
@@ -20464,7 +20466,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15895, 'Wa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18605, 'Glendale Heights', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6514, 'Adair', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6851, 'Ashville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (961, 'Benito Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (961, 'Benito Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5719, 'Laurel', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19313, 'Kansas City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (140, 'Chorotega', 'CR');
@@ -20513,7 +20515,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18161, 'El
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8760, 'Dalton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12812, 'Mountville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16864, 'Aurora', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (426, 'Metapán', 'SV');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (426, 'Metapï¿½n', 'SV');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23318, 'Henderson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4332, 'Lapeer', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20027, 'Meredith', 'US');
@@ -20537,7 +20539,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3706, 'Lam
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (922, 'Angostura', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18950, 'Hopewell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23975, 'Sawyerville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (270, 'Batabanó', 'CU');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (270, 'Batabanï¿½', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5386, 'Colorado City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18935, 'Honolulu', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6080, 'St Clairsville', 'US');
@@ -20550,7 +20552,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8888, 'Deg
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15210, 'Stiles', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21501, 'Santa Maria', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10188, 'Grandin', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (625, 'San Luis Pajón', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (625, 'San Luis Pajï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8964, 'Des Arc', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10395, 'Halsey', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13329, 'Oregon City', 'US');
@@ -20584,7 +20586,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5371, 'Cla
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4428, 'Pottsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12549, 'Minerva', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12941, 'New Harmony', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1483, 'Mulegé', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1483, 'Mulegï¿½', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10891, 'Hurley', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17328, 'Butte', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8583, 'Cougar', 'US');
@@ -20600,7 +20602,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2843, 'Pit
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19456, 'Lafayette', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17702, 'Columbus', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22657, '', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (728, 'Puerto Peñasco', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (728, 'Puerto Peï¿½asco', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13404, 'Oxford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9750, 'Fort Kent', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5464, 'Edwards', 'US');
@@ -20662,7 +20664,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1262, 'Gue
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4131, 'Austin', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9252, 'El Mirage', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26171, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1046, 'Ciudad Díaz Ordaz', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1046, 'Ciudad Dï¿½az Ordaz', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18439, 'Fort Worth', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2446, 'Stuart', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7224, 'Berlin', 'US');
@@ -20725,7 +20727,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12843, 'Mu
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8309, 'Clifton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8879, 'Deering', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15610, 'Trenton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26922, 'Rivière-aux-Saumons', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26922, 'Riviï¿½re-aux-Saumons', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1087, 'Cozumel', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26847, 'Naramata', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22387, 'West Reading', 'US');
@@ -20803,7 +20805,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15036, 'Sp
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20644, 'Orange', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11918, 'Lowell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15931, 'Wallace', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (164, 'Limón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (164, 'Limï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15770, 'Valley Center', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17064, 'Berwick', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14948, 'South Coffeyville', 'US');
@@ -20895,7 +20897,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (399, '', '
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9034, 'Dow', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8268, 'Claude', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14603, 'Scio', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (431, 'San Ramón', 'SV');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (431, 'San Ramï¿½n', 'SV');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10689, 'Highmore', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24435, 'Dease Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3800, 'West Chester', 'US');
@@ -21403,7 +21405,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6539, 'Agu
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14476, 'Salmon Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3874, 'Baytown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21930, 'Tavernier', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1946, 'Río Tigre', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1946, 'Rï¿½o Tigre', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24366, 'Centralia', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (366, 'Imias', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15314, 'Sunman', 'US');
@@ -21474,7 +21476,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7590, 'Bro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15400, 'Tampico', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7354, 'Bly', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (433, 'Santa Rosa de Lima', 'SV');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (215, 'Ticabán', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (215, 'Ticabï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7409, 'Bostwick', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25073, 'Red Earth Creek', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9697, 'Foley', 'US');
@@ -21529,7 +21531,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7076, 'Bea
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16179, 'West Brooklyn', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21993, 'Toledo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20226, 'Morristown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (933, 'Atizapán de Zaragoza', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (933, 'Atizapï¿½n de Zaragoza', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16080, 'Waukomis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5235, 'Aurora', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17640, 'Cocodrie', 'US');
@@ -21699,7 +21701,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21477, 'Sa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15021, 'Spring Hill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23523, 'Lisbon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14555, 'Santa Ynez', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25945, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25945, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10667, 'Heyworth', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3897, 'Challis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10350, 'Gulkana', 'US');
@@ -21711,7 +21713,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16287, 'Wh
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20970, 'Pittsburgh', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15123, 'Stafford Springs', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11687, 'Lester Prairie', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (746, 'Bahía de los Ángeles', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (746, 'Bahï¿½a de los ï¿½ngeles', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25979, 'Pikangikum', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2407, 'Hemet', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18414, 'Fort Rucker/Samson', 'US');
@@ -21785,7 +21787,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19345, 'Ke
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20058, 'Methuen', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25741, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11798, 'Live Oak', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1034, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1034, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26843, 'MRC Manicouagan', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24042, 'St. Marys', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26984, 'Tasu', 'CA');
@@ -21918,7 +21920,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22209, 'Wa
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8745, 'Dade City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16906, 'Baltimore', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18351, 'Fort Bragg', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1311, 'Juárez', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1311, 'Juï¿½rez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17597, 'Clear Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26143, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7544, 'Bristol', 'US');
@@ -21936,7 +21938,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17482, 'Ch
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21681, 'South Barrington', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24916, 'Neuville, QC', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26699, 'Elk Point', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25519, 'St-Jérôme', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25519, 'St-Jï¿½rï¿½me', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15873, 'Virginia Beach', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3737, 'Nevada', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6482, '', 'US');
@@ -22177,7 +22179,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4539, 'Car
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6660, 'Alvarado', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22797, 'Bay Minette', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11442, 'Laddonia', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26000, 'Québec', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26000, 'Quï¿½bec', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19595, 'Leesburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21171, 'Raleigh', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5743, 'Linton', 'US');
@@ -22322,7 +22324,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4676, 'Cow
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14926, 'Sonoita', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20021, 'Menomonie', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23814, 'Picayune', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (689, 'Mérida', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (689, 'Mï¿½rida', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6601, 'Aledo', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16570, 'York', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2788, 'St Johns', 'US');
@@ -22461,7 +22463,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5772, 'Mai
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8511, 'Cooper', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23948, 'San Francisco', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2934, 'Fort Meade(Odenton)', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (714, 'Culiacán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (714, 'Culiacï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25959, 'New Westminster', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26022, 'Sechelt', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23789, 'Peason Ridge Wildlife Management Area', 'US');
@@ -22515,7 +22517,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10124, 'Go
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14230, 'Rixeyville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3581, 'Hampton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17429, 'Cary', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1642, 'San Martín de Hidalgo', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1642, 'San Martï¿½n de Hidalgo', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4404, 'Paradise', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10464, 'Harmony', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11642, 'Leesburg', 'US');
@@ -22538,7 +22540,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17530, 'Ch
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10561, 'Hawkins', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4832, 'Ketchum', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14379, 'Roxboro', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1954, 'Garachiné', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1954, 'Garachinï¿½', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18568, 'Gettysburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7085, 'Bedford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13325, 'Oregon', 'US');
@@ -22898,7 +22900,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18234, 'Ev
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2514, 'Fallbrook', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24763, 'Woodstock', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4363, 'Mendota', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (599, 'Lérida', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (599, 'Lï¿½rida', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6668, 'Alvord', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13241, 'Olathe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (727, '', 'MX');
@@ -22981,7 +22983,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (377, 'La I
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23273, 'Greenwood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19493, 'Lake City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17398, 'Carefree', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1802, 'Torreón', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1802, 'Torreï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16248, 'Wetumpka', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3659, 'Danielson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10714, 'Hinsdale', 'US');
@@ -23137,7 +23139,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16325, 'Wi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17654, 'Coffeyville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13393, 'Owensboro', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11647, 'Leighton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1541, 'Parácuaro', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1541, 'Parï¿½cuaro', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2173, 'Napa', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3305, 'Elizabethtown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19023, 'Houston', 'US');
@@ -23261,7 +23263,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3840, 'Chi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (584, 'Horcones', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17396, 'Carefree', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20516, 'North Miami Beach', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24479, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24479, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5177, 'Selawik', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13983, 'Punkin Center', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15647, 'Truth Or Consequences', 'US');
@@ -23278,7 +23280,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11967, 'Ly
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25941, 'Mont-Tremblant', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9218, 'Edinburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17562, 'Chula Vista', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1795, 'Tomatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1795, 'Tomatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (829, 'Ciudad Guzman', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1959, 'La Candelaria', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2118, 'Syracuse', 'US');
@@ -23423,7 +23425,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12789, 'Mo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18767, 'Hamilton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19969, 'Mc Causland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13041, 'Nightmute', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25421, 'Lac à la Perchaude', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25421, 'Lac ï¿½ la Perchaude', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25984, 'Port Alice', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23204, 'Fowlerton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19822, 'Lubbock', 'US');
@@ -23538,7 +23540,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17199, 'Bo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10333, 'Grouse', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9219, 'Edmond', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19058, 'Hunt Valley', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (178, 'Pérez Zeledón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (178, 'Pï¿½rez Zeledï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6083, 'St Francis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10568, 'Haxtun', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25701, '', 'CA');
@@ -23598,7 +23600,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5723, 'Le 
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25526, 'St. Francis', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1814, 'Tuxtla Gutierrez', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8975, 'Di Giorgio', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26802, 'Les Cèdres', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26802, 'Les Cï¿½dres', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7551, 'Britton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21913, 'Tampa', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5964, 'Plattsburg', 'US');
@@ -23725,7 +23727,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11028, 'Ja
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6112, 'Sylvania', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20000, 'Meeker', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15434, 'Tea', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24545, 'Île-à-la-Crosse', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24545, 'ï¿½le-ï¿½-la-Crosse', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22763, 'Aurora', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25411, 'Kerrobert', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21240, 'Rice', 'US');
@@ -23742,7 +23744,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17510, 'Ch
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8539, 'Corpus Christi', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26580, 'Beausejour', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1439, 'Miguel Hidalgo', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1876, 'Estelí', 'NI');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1876, 'Estelï¿½', 'NI');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10049, 'Glassboro', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25864, 'Ganges', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23527, 'Live Oak', 'US');
@@ -24183,7 +24185,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9301, 'Elk
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14998, 'Spicewood', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4536, 'Delta Junction Ft Greely', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13976, 'Pueblo', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (618, 'Rio Plátano', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (618, 'Rio Plï¿½tano', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26998, 'Toronto', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11994, 'Macksville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23800, 'Perry', 'US');
@@ -24245,7 +24247,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6999, 'Bar
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13076, 'North Branch', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19119, 'Indianapolis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3053, 'Lexington', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25946, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25946, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3549, 'Sidney', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2273, 'Tracy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7106, 'Belgrade', 'US');
@@ -24353,7 +24355,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17139, 'Bl
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7418, 'Bourbon', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22010, 'Topeka', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20386, 'New London', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1117, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1117, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2494, 'Cameron Park', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9132, 'Eagle Rock', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14241, 'Roberta', 'US');
@@ -24463,7 +24465,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12814, 'Mo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8006, 'Celeste', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13639, 'Peru', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18590, 'Glastonbury', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (847, 'San Luis Río Colorado', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (847, 'San Luis Rï¿½o Colorado', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9998, 'Georgetown', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17135, 'Bloomfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8390, 'Collins', 'US');
@@ -24494,7 +24496,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13087, 'No
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5691, 'Kimball', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (552, 'Choluteca', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5809, 'Mc Crory', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1571, 'Puerto Peñasco', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1571, 'Puerto Peï¿½asco', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4151, 'Troy', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24491, 'Mackenzie', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2759, 'Bartlesville', 'US');
@@ -24620,7 +24622,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25013, 'Gr
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22514, 'Winter Haven', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24885, 'Trout Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14527, 'Sandwich', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1035, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1035, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4079, 'Shawano', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5789, 'Marine City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14606, 'Scooba', 'US');
@@ -24791,7 +24793,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21190, 'Ra
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12040, 'Mahanoy City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6033, 'Saratoga', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18104, 'Easton', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (596, 'La Unión', 'HN');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (596, 'La Uniï¿½n', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13988, 'Punta Gorda', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (103, 'Liberia', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3048, 'Hillsboro', 'US');
@@ -24814,7 +24816,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2999, 'War
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6407, "St. Mary'S", 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20446, 'Newnan', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4309, 'Houston', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25944, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25944, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5366, 'Circle Pines', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26756, 'Hillaton', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14437, 'Sacramento', 'US');
@@ -24882,7 +24884,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24768, 'Na
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1302, 'Janos', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22833, 'Big Lake', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15674, 'Turtle Lake', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1943, 'Río Azúcar', 'PA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1943, 'Rï¿½o Azï¿½car', 'PA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6797, 'Argyle', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8497, 'Conway', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18148, 'Elburn', 'US');
@@ -24900,7 +24902,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17610, 'Cl
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3455, 'Cincinnati', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16642, 'Akron', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5667, 'Jamestown', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (827, 'Ciudad Acuña', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (827, 'Ciudad Acuï¿½a', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24280, 'Regina', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22724, 'Anchorage', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8652, 'Creswell', 'US');
@@ -24961,7 +24963,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3480, 'Gra
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (327, '', 'CU');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1879, 'Juigalpa', 'NI');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1357, 'Madera', 'MX');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25895, "Île d'Orléans", 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25895, "ï¿½le d'Orlï¿½ans", 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11159, 'Kalispell', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25043, 'Louiseville', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (97, 'San Felipe', 'BZ');
@@ -25079,7 +25081,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26757, 'Hi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23130, 'Edna Hill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19144, 'Intracoastal City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21931, 'Taylor', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26877, 'Pointe-au-Chêne', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26877, 'Pointe-au-Chï¿½ne', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3945, 'Ellenville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (597, 'Laguna Seca', 'HN');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20393, 'New Orleans', 'US');
@@ -25749,7 +25751,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11142, 'Ka
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22290, 'Wasilla', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19606, 'Leitchfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24063, 'Sumas', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26837, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26837, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6705, 'Anatone', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16060, 'Watersmeet', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15600, 'Trapper Creek', 'US');
@@ -25857,7 +25859,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2532, 'Ala
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24937, 'North Spirit Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26735, 'Grande Prairie', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23660, 'Nampa', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1070, 'Comitán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1070, 'Comitï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15537, 'Tipton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3754, 'Poplar Bluff', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12767, 'Mount Gilead', 'US');
@@ -25947,7 +25949,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9505, 'Fai
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13969, 'Prosser', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15138, 'Stapleton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16365, 'Willow', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24267, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24267, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8523, 'Corcoran', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25481, 'Pilot Butte', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10058, 'Glen Rose', 'US');
@@ -26076,7 +26078,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11845, 'Lo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7360, 'Boardman', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (20722, 'Paducah', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26450, '', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1796, 'Tomatlán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1796, 'Tomatlï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (413, 'Cangrejera', 'SV');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14624, 'Scurry', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19129, 'Indianapolis', 'US');
@@ -26179,7 +26181,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5296, 'Bro
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14260, 'Rochester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2642, 'Kankakee', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7365, 'Bogalusa', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24517, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24517, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14320, 'Romayor', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4489, 'Waco', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19771, 'Los Angeles', 'US');
@@ -26207,7 +26209,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23131, 'El
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19415, 'Kitoi Bay', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22554, 'Worcester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12004, 'Madera', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1127, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1127, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5230, 'Atmore', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22878, 'Bradford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2707, 'Gainesville', 'US');
@@ -26228,7 +26230,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2317, 'Atl
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14249, 'Robson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4585, 'Bedford', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3935, 'Eagle River', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1110, 'Cuauhtémoc', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1110, 'Cuauhtï¿½moc', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8549, 'Cortland', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5615, 'Herald', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10707, 'Hillview', 'US');
@@ -26316,7 +26318,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16888, 'Av
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15284, 'Sudlersville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14344, 'Roseburg', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22102, 'Union', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25943, 'Montréal', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25943, 'Montrï¿½al', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12781, 'Mount Sterling/Owingsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17269, 'Brooklyn', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6402, 'Russell', 'US');
@@ -26386,7 +26388,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4288, 'Gre
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12938, 'New Gloucester', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26225, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25336, 'Dawson Creek', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24616, 'Déline', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24616, 'Dï¿½line', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7105, 'Belfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14315, 'Rolla', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8064, 'Chandler', 'US');
@@ -26398,7 +26400,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1470, 'Mon
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24528, 'Pickle Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1230, 'Guadalajara', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2389, 'Winter Haven', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (183, 'Puerto Cortés', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (183, 'Puerto Cortï¿½s', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2832, 'Huntsville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10417, 'Hammond', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25634, '', 'CA');
@@ -26416,7 +26418,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2753, 'Por
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3394, 'Rhinelander', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (17046, 'Bemidji', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26585, 'Berland', 'CA');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (137, 'Cañas', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (137, 'Caï¿½as', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12709, 'Morrill', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25739, '', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9266, 'Elbridge', 'US');
@@ -26588,7 +26590,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3648, 'Cle
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14393, 'Ruch', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9377, 'Emmett', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7346, 'Blue Ridge', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1742, 'Taxco de Alarcón', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1742, 'Taxco de Alarcï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22564, 'Wylie', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16629, 'Adelanto', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18451, 'Fountain Valley', 'US');
@@ -26624,7 +26626,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3665, 'Edi
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (15348, 'Sweet Valley', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24446, 'Slave Lake', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (22805, 'Belhaven', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (177, 'Pérez Zeledón', 'CR');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (177, 'Pï¿½rez Zeledï¿½n', 'CR');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (6082, 'St Francis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26789, 'La Romaine', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5934, 'Patoka', 'US');
@@ -26673,7 +26675,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12684, 'Mo
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5068, 'Trinidad', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25778, 'Borden', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10915, 'Independence', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26838, 'Montréal/Laval', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26838, 'Montrï¿½al/Laval', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (8341, 'Clovis', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23962, 'Sandpoint', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (7391, 'Booneville', 'US');
@@ -26704,7 +26706,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (4628, 'Car
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (19250, 'Jersey City', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23258, 'Grassrange', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12801, 'Mountain Home', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1086, 'Coyoacán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1086, 'Coyoacï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18381, 'Fort Monroe', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21041, 'Port Clinton', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25341, 'Dinsmore', 'CA');
@@ -26824,7 +26826,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (21250, 'Ri
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1287, 'Huixquilucan', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (14227, 'Riverside', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23698, 'North Fox Island', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26013, 'Rivière-du-Loup', 'CA');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26013, 'Riviï¿½re-du-Loup', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23652, 'Murrieta', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (18394, 'Fort Rucker', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (9133, 'Eagle Rock', 'US');
@@ -26927,7 +26929,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (3853, '', 
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (1167, 'El Fuerte', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (24239, 'Winter Garden', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2941, 'Albemarle', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (462, 'Poptún', 'GT');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (462, 'Poptï¿½n', 'GT');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (10341, 'Grundy Center', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (11005, 'Jackson', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (12307, 'Mc Leansboro', 'US');
@@ -26949,7 +26951,7 @@ INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (23721, 'Oc
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (756, 'Bahia de Kino', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (5805, 'Mayville', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (2208, 'Gainesville', 'US');
-INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (822, 'Apatzingán', 'MX');
+INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (822, 'Apatzingï¿½n', 'MX');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16217, 'Westfield', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (26025, 'Sherbrooke', 'CA');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (25676, '', 'CA');
