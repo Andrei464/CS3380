@@ -68,9 +68,8 @@ class Database{
 
     public Database(String dbFile){
         try {
-			String url = "jdbc:sqlite:" + dbFile;
 			// create a connection to the database
-			connection = DriverManager.getConnection(url);
+			connection = DriverManager.getConnection("jdbc", "sholokh1", "7941961");
 		} catch (SQLException e) {
 			System.out.println("FUCK");
 			e.printStackTrace(System.out);
