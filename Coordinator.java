@@ -60,6 +60,14 @@ public class Coordinator{
 			else if (parts[0].equals("repopulate")) {
 				db.runSQL("dropAll.sql");
                 db.runSQL("Queries/insert_continents.sql");
+				db.runSQL("Queries/insert_countries.sql");
+				db.runSQL("Queries/insert_cities.sql");
+				db.runSQL("Queries/insert_airports.sql");
+				db.runSQL("Queries/insert_airlines");
+				db.runSQL("Queries/");
+				db.runSQL("Queries/");
+				db.runSQL("Queries/");
+				db.runSQL("Queries/");
 			}
 			else{
 				System.out.println("Type help for all commands, or pray <3");
