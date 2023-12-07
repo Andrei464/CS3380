@@ -58,16 +58,26 @@ public class Coordinator{
                     "");
             }
 			else if (parts[0].equals("repopulate")) {
+				System.out.println("Z");
 				db.runSQL("dropAll.sql");
+				System.out.println("A");
                 db.runSQL("Queries/insert_continents.sql");
+				System.out.println("B");
 				db.runSQL("Queries/insert_countries.sql");
+				System.out.println("C");
 				db.runSQL("Queries/insert_cities.sql");
-				db.runSQL("Queries/insert_airports.sql");
-				db.runSQL("Queries/insert_airlines");
+				System.out.println("D");
+				db.runSQL("Queries/insert_airlines.sql");
+				System.out.println("E");
+				db.runSQL("Queries/insert_airplanes.sql");
+				System.out.println("F");
 				db.runSQL("Queries/");
 				db.runSQL("Queries/");
 				db.runSQL("Queries/");
 				db.runSQL("Queries/");
+			}
+			else if (parts[0].equals("drop")) {
+				db.runSQL("dropAll.sql");
 			}
 			else{
 				System.out.println("Type help for all commands, or pray <3");

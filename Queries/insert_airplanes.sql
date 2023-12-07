@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS Airlines;
 
-CREATE TABLE Airlines("Airplane" VARCHAR(68) NOT NULL,"IATA" VARCHAR(3),"ICAO" VARCHAR(4) NOT NULL PRIMARY KEY);
+CREATE TABLE Airlines(Airplane VARCHAR(68) NOT NULL, iataCode VARCHAR(3),icaoCode VARCHAR(4) NOT NULL PRIMARY KEY);
 
 INSERT INTO Airlines("Airplane","IATA","ICAO") VALUES ('Aerospatiale (Nord) 262','ND2','N262');
 INSERT INTO Airlines("Airplane","IATA","ICAO") VALUES ('Aerospatiale (Sud Aviation) Se.210 Caravelle','CRV','S210');
