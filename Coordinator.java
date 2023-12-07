@@ -25,7 +25,7 @@ public class Coordinator{
     public static void runConsole(Database db) {
 
 		Scanner console = new Scanner(System.in);
-		System.out.print("Welcome! Type h for help. ");
+		System.out.print("Welcome! Type h for help.\n");
 		System.out.print("db > ");
 		String line = console.nextLine();
 		String[] parts;
@@ -37,7 +37,12 @@ public class Coordinator{
 			//airlines by destination
 			//large/medium/small airports by country
 			//waypoints for a given route
+			//which airplaines are used by which airlines which airline uses what airplanes
 			//shortest route????
+
+			//write up
+
+			//interface
 			parts = line.split("\\s+");
 			if (line.indexOf(" ") > 0)
 				arg = line.substring(line.indexOf(" ")).trim();
@@ -52,8 +57,9 @@ public class Coordinator{
                     "" +
                     "");
             }
-			else if (parts[0].equals("repupulate")) {
-                db.repopulate();
+			else if (parts[0].equals("repopulate")) {
+				db.runSQL("dropAll.sql");
+                db.runSQL("Queries/insert_continents.sql");
 			}
 			else{
 				System.out.println("Type help for all commands, or pray <3");
@@ -75,7 +81,12 @@ class Database{
     public Database(){
         try {
 			// create a connection to the database
-			connection = DriverManager.getConnection("jdbc:sqlserver://uranium.cs.umanitoba.ca;user=sholokh1;password=7941961;trustServerCertificate=true");
+			connection = DriverManager.getConnection(
+				"jdbc:sqlserver://uranium.cs.umanitoba.ca;" + 
+				"user=sholokh1;" + 
+				"password=7941961;" + 
+				"trustServerCertificate=true"
+			);
 		} catch (SQLException e) {
 			System.out.println("Couldn't Connect to Database");
 			e.printStackTrace(System.out);
@@ -83,64 +94,42 @@ class Database{
 		}
     }
 
-	public void search(){
+	public void runSQL(String file){
 		try{
-			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM AIRLINES";
-			prepedStatement = connection.prepareStatement(query);
-			ResultSet result = prepedStatement.executeQuery();
-			if(result.next()){
-				System.out.println("Data:");
-				do{
-            		String name = result.getString("name");
-            		System.out.println(name);
-        		}while (result.next());
+			Statement statement = connection.createStatement();
+			File database = new File(file);
+			Scanner scanner = new Scanner(database);
+			//Need to make the statement not autocommit
+			String line = "";
+			while (scanner.hasNextLine()){
+				line = scanner.nextLine();
+				if(line != "" && line != null){
+					statement.addBatch(line);
+				}
 			}
-			else{
-				System.out.println("[Nothing Found]");
-			}
-		}catch (SQLException e) {
-        		e.printStackTrace();
-    	}
-	}
-
-	public void dropTables(){
-		try{
-			PreparedStatement prepedStatement;
-			String query = "";
-			prepedStatement = connection.prepareStatement(query);
-			ResultSet result = prepedStatement.executeQuery();
-			if(result.next()){
-				System.out.println("Data:");
-				do{
-            		String name = result.getString("name");
-            		System.out.println(name);
-        		}while (result.next());
-			}
-			else{
-				System.out.println("[Nothing Found]");
-			}
-		}catch (SQLException e) {
-        		e.printStackTrace();
-    	}
-	}
-
-	public void repopulate(){
-		try{
-			test();
-			
-			Statement statement = readIn("database.sql");
-			
+			scanner.close();
+			connection.setAutoCommit(false);
 			int count[] = statement.executeBatch();
+			boolean rollBack = false;
 			for(int i = 0; i < count.length; i++){
 				if(count[i] < 0){
 					//an error occured and we need to rollback
-					connection.rollback();
+					rollBack = true;
+					break;
 				}
 			}
-			test();
+			if (rollBack){
+				connection.rollback();
+			}
+			else{
+				connection.commit();
+			}
+			
+			connection.setAutoCommit(true);
 		}catch (SQLException e) {
         	e.printStackTrace();
+		}catch (FileNotFoundException e) {
+			System.out.println("File Not Found");
 		}
 	}
 
@@ -162,28 +151,6 @@ class Database{
 			}
 		}catch (SQLException e) {
         		e.printStackTrace();
-    	}
-	}
-
-	public Statement readIn(String fileName){
-		try{
-			Statement statement = connection.createStatement();
-			File database = new File(fileName);
-			Scanner scanner = new Scanner(database);
-			//Need to make the statement not autocommit
-			connection.setAutoCommit(false);
-			while (scanner.hasNextLine()){
-				statement.addBatch(scanner.nextLine());
-			}
-			scanner.close();
-			return statement;
-    	}catch (FileNotFoundException e) {
-			System.out.println("File Not Found");
-        	e.printStackTrace();
-			return null;
-    	}catch (SQLException e) {
-        	e.printStackTrace();
-			return null;
     	}
 	}
 }
