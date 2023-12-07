@@ -1,13 +1,14 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-//import java.sql.ResultSet;
-//import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.sql.SQLException;
-//import java.sql.PreparedStatement;
-
-//import java.io.FileReader;
-//import java.io.IOException;
-//import java.io.BufferedReader;
+import java.sql.PreparedStatement;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Coordinator{
@@ -16,9 +17,8 @@ public class Coordinator{
     public static void main(String[] args){
 
             // startup sequence
-            Database db = new Database("library.db");
+            Database db = new Database();
             runConsole(db);
-
             System.out.println("Exiting...");
     }
 
@@ -37,7 +37,7 @@ public class Coordinator{
 				arg = line.substring(line.indexOf(" ")).trim();
 			if (parts[0].equals("help")){
                 System.out.println(
-                    "Commands List:" + 
+                    "Commands List:\n" + 
                     "help - help\n" + 
                     "schema - database schema\n" + 
                     "select [projection] from [table]- runs a selection with the given columns\n" + 
@@ -46,8 +46,8 @@ public class Coordinator{
                     "" +
                     "");
             }
-			else if (parts[0].equals("schema")) {
-                
+			else if (parts[0].equals("repupulate")) {
+                db.repopulate();
 			}
 			else{
 				System.out.println("Type help for all commands, or pray <3");
@@ -66,14 +66,105 @@ class Database{
 
     private Connection connection;  
 
-    public Database(String dbFile){
+    public Database(){
         try {
 			// create a connection to the database
-			connection = DriverManager.getConnection("jdbc", "sholokh1", "7941961");
+			connection = DriverManager.getConnection("jdbc:sqlserver://uranium.cs.umanitoba.ca;user=sholokh1;password=7941961;trustServerCertificate=true");
 		} catch (SQLException e) {
-			System.out.println("FUCK");
+			System.out.println("Couldn't Connect to Database");
 			e.printStackTrace(System.out);
 			System.exit(0);
 		}
     }
+
+	public void search(){
+		try{
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM AIRLINES";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if(result.next()){
+				System.out.println("Data:");
+				do{
+            		String name = result.getString("name");
+            		System.out.println(name);
+        		}while (result.next());
+			}
+			else{
+				System.out.println("[Nothing Found]");
+			}
+		}catch (SQLException e) {
+        		e.printStackTrace();
+    	}
+	}
+
+	public void dropTables(){
+		try{
+			PreparedStatement prepedStatement;
+			String query = "";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if(result.next()){
+				System.out.println("Data:");
+				do{
+            		String name = result.getString("name");
+            		System.out.println(name);
+        		}while (result.next());
+			}
+			else{
+				System.out.println("[Nothing Found]");
+			}
+		}catch (SQLException e) {
+        		e.printStackTrace();
+    	}
+	}
+
+	public void repopulate(){
+		try{
+			test();
+			File database = new File("database.sql");
+			Scanner scanner = new Scanner(database);
+			Statement statement = connection.createStatement();
+			//Need to make the statement not autocommit
+			connection.setAutoCommit(false);
+			while (scanner.hasNextLine()){
+				statement.addBatch(scanner.nextLine());
+			}
+			scanner.close();
+			int count[] = statement.executeBatch();
+			for(int i = 0; i < count.length; i++){
+				if(count[i] < 0){
+					//an error occured and we need to rollback
+					connection.rollback();
+				}
+			}
+			test();
+		}catch (SQLException e) {
+        	e.printStackTrace();
+    	}catch (FileNotFoundException e) {
+			System.out.println("File Not Found");
+        	e.printStackTrace();
+    	}
+	}
+
+	public void test(){
+		try{
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if(result.next()){
+				System.out.println("Data:");
+				do{
+            		String name = result.getString("name");
+            		System.out.println(name);
+        		}while (result.next());
+			}
+			else{
+				System.out.println("[Nothing Found]");
+			}
+		}catch (SQLException e) {
+        		e.printStackTrace();
+    	}
+	}
 }
