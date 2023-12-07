@@ -1,15 +1,6 @@
 DROP TABLE IF EXISTS Airlines;
 
-CREATE TABLE Airlines(
-   AirlineID        INTEGER NOT NULL
-  ,AirlineName      VARCHAR(81) NOT NULL
-  ,Alias            VARCHAR(30)
-  ,IATA             VARCHAR(3)
-  ,ICAO             VARCHAR(5) PRIMARY KEY
-  ,Callsign         VARCHAR(50)
-  ,Country          VARCHAR(37)
-  ,Active           VARCHAR(1) NOT NULL
-);
+CREATE TABLE Airlines(AirlineID INTEGER NOT NULL,AirlineName VARCHAR(81) NOT NULL,Alias VARCHAR(30),IATA VARCHAR(3),ICAO VARCHAR(5) PRIMARY KEY,Callsign VARCHAR(50),Country VARCHAR(37) ,Active VARCHAR(1) NOT NULL);
 
 INSERT INTO Airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign,Country,Active) VALUES (NULL,'135 Airways',NULL,NULL,'GNL','GENERAL','United States','N');
 INSERT INTO Airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign,Country,Active) VALUES (3,'1Time Airline',NULL,'1T','RNX','NEXTIME','South Africa','Y');
