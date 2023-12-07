@@ -32,6 +32,12 @@ public class Coordinator{
 		String arg = "";
 
 		while (line != null && !line.equals("q")) {
+			//airports by country
+			//all airports
+			//airlines by destination
+			//large/medium/small airports by country
+			//waypoints for a given route
+			//shortest route????
 			parts = line.split("\\s+");
 			if (line.indexOf(" ") > 0)
 				arg = line.substring(line.indexOf(" ")).trim();
@@ -39,8 +45,8 @@ public class Coordinator{
                 System.out.println(
                     "Commands List:\n" + 
                     "help - help\n" + 
-                    "schema - database schema\n" + 
-                    "select [projection] from [table]- runs a selection with the given columns\n" + 
+                    "schema - database schema\n" +
+                    "" + 
                     "" + 
                     "" +
                     "" +
@@ -122,15 +128,9 @@ class Database{
 	public void repopulate(){
 		try{
 			test();
-			File database = new File("database.sql");
-			Scanner scanner = new Scanner(database);
-			Statement statement = connection.createStatement();
-			//Need to make the statement not autocommit
-			connection.setAutoCommit(false);
-			while (scanner.hasNextLine()){
-				statement.addBatch(scanner.nextLine());
-			}
-			scanner.close();
+			
+			Statement statement = readIn("database.sql");
+			
 			int count[] = statement.executeBatch();
 			for(int i = 0; i < count.length; i++){
 				if(count[i] < 0){
@@ -141,10 +141,7 @@ class Database{
 			test();
 		}catch (SQLException e) {
         	e.printStackTrace();
-    	}catch (FileNotFoundException e) {
-			System.out.println("File Not Found");
-        	e.printStackTrace();
-    	}
+		}
 	}
 
 	public void test(){
@@ -165,6 +162,28 @@ class Database{
 			}
 		}catch (SQLException e) {
         		e.printStackTrace();
+    	}
+	}
+
+	public Statement readIn(String fileName){
+		try{
+			Statement statement = connection.createStatement();
+			File database = new File(fileName);
+			Scanner scanner = new Scanner(database);
+			//Need to make the statement not autocommit
+			connection.setAutoCommit(false);
+			while (scanner.hasNextLine()){
+				statement.addBatch(scanner.nextLine());
+			}
+			scanner.close();
+			return statement;
+    	}catch (FileNotFoundException e) {
+			System.out.println("File Not Found");
+        	e.printStackTrace();
+			return null;
+    	}catch (SQLException e) {
+        	e.printStackTrace();
+			return null;
     	}
 	}
 }
