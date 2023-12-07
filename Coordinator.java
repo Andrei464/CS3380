@@ -77,7 +77,7 @@ public class Coordinator{
 				db.runSQL("Queries/");
 			}
 			else if (parts[0].equals("drop")) {
-				db.runSQL("dropAll.sql");
+				db.drop();
 			}
 			else{
 				System.out.println("Type help for all commands, or pray <3");
@@ -112,6 +112,32 @@ class Database{
 		}
     }
 
+	public void drop(){
+		try{
+			Statement statement = connection.createStatement();
+			File database = new File("dropAll.sql");
+			Scanner scanner = new Scanner(database);
+			//Need to make the statement not autocommit
+			String line = "";
+			connection.setAutoCommit(false);
+			while (scanner.hasNextLine()){
+				line = scanner.nextLine();
+				System.out.println(line);
+				if(line != "" && line != null){
+					
+					statement.executeUpdate(line);
+				}
+			}
+			scanner.close();			
+			connection.commit();
+			connection.setAutoCommit(true);
+		}catch (SQLException e) {
+        	e.printStackTrace();
+		}catch (FileNotFoundException e) {
+			System.out.println("File Not Found");
+		}
+	}
+
 	public void runSQL(String file){
 		try{
 			Statement statement = connection.createStatement();
@@ -130,13 +156,14 @@ class Database{
 			int count[] = statement.executeBatch();
 			boolean rollBack = false;
 			for(int i = 0; i < count.length; i++){
-				if(count[i] < 0){
+				if(count[i] == -1){
 					//an error occured and we need to rollback
 					rollBack = true;
 					break;
 				}
 			}
 			if (rollBack){
+				System.out.println("ROLL BACK");
 				connection.rollback();
 			}
 			else{
@@ -145,6 +172,7 @@ class Database{
 			
 			connection.setAutoCommit(true);
 		}catch (SQLException e) {
+			System.out.println("FAILURE");
         	e.printStackTrace();
 		}catch (FileNotFoundException e) {
 			System.out.println("File Not Found");
