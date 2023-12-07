@@ -1,4 +1,11 @@
-use cs3380
+DROP TABLE IF EXISTS countries;
+
+create table countries
+(
+    iso_country varchar(2) PRIMARY key,
+    country text,
+    iso_region varchar(2) references continents
+);
 
 INSERT INTO countries ('iso_country', 'country', 'iso_region')
 VALUES
@@ -74,7 +81,7 @@ VALUES
     ('PA', 'Panama', 'NA');
 INSERT INTO countries ('iso_country', 'country', 'iso_region')
 VALUES
-    ('BL', 'Saint Barth�lemy', 'NA');
+    ('BL', 'Saint Barthelemy', 'NA');
 INSERT INTO countries ('iso_country', 'country', 'iso_region')
 VALUES
     ('VC', 'Saint Vincent and the Grenadines', 'NA');

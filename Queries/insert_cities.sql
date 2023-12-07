@@ -1,4 +1,11 @@
-use cs3380
+DROP TABLE IF EXISTS cities;
+
+create table cities
+(
+    city_id integer primary key,
+    municipality text not null,
+    iso_country varchar(2) references countries
+);
 
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (13431, 'Palacios', 'US');
 INSERT INTO cities ('city_id', 'municipality', 'iso_country') VALUES (16292, 'Whitesburg', 'US');
