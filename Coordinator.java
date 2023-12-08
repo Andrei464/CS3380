@@ -30,15 +30,6 @@ public class Coordinator {
 		String arg = "";
 
 		while (line != null && !line.equals("q")) {
-			// airports by country
-			// all airports
-			// airlines by destination
-			// large/medium/small airports by country
-			// which airplaines are used by which airlines which airline uses what airplanes
-			// shortest route????
-
-			// write up
-
 			// interface
 			parts = line.split("\\s+");
 			if (line.indexOf(" ") > 0)
@@ -47,8 +38,8 @@ public class Coordinator {
 				System.out.println(
 						"Commands List:\n" +
 								"help - help\n" +
-								"schema - database schema\n" +
-								"" +
+								"drop - drops all tables\n" +
+								"repopulate - repopulates the entire database\n" +
 								"" +
 								"" +
 								"" +
@@ -57,15 +48,15 @@ public class Coordinator {
 				System.out.println("Z");
 				db.runSQLStatements("dropAll.sql");
 				System.out.println("A");
-				db.runSQL("Queries/insert_continents.sql");
+				db.runManySQL("Queries/insert_continents.sql");
 				System.out.println("B");
-				db.runSQL("Queries/insert_countries.sql");
+				db.runManySQL("Queries/insert_countries.sql");
 				System.out.println("C");
-				db.runSQL("Queries/insert_cities.sql");
+				db.runManySQL("Queries/insert_cities.sql");
 				System.out.println("D");
-				db.runSQL("Queries/insert_airlines.sql");
+				db.runManySQL("Queries/insert_airlines.sql");
 				System.out.println("E");
-				db.runSQL("Queries/insert_airplanes.sql");
+				db.runManySQL("Queries/insert_airplanes.sql");
 				System.out.println("F");
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
@@ -110,6 +101,7 @@ class Database {
 			while (scanner.hasNextLine()) {
 				line = scanner.nextLine();
 				if (line != "" && line != null) {
+					System.out.println(line);
 					statement.executeUpdate(line);
 				}
 			}
@@ -123,7 +115,7 @@ class Database {
 		}
 	}
 
-	public void runSQL(String file) {
+	public void runManySQL(String file) {
 		try {
 			Statement statement = connection.createStatement();
 			File database = new File(file);
