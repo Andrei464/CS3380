@@ -63,6 +63,8 @@ public class Coordinator {
 				db.runManySQL("Queries/insert_airplanes.sql");
 				System.out.println("F");
 				db.runManySQL("Queries/insert_flightroutes.sql");
+				System.out.println("G");
+				db.runManySQL("Queries/insert_activeFlights.sql");
 				System.out.println("DONE");
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
