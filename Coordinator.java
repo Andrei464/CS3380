@@ -69,16 +69,15 @@ public class Coordinator {
 				System.out.println("F");
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
+			}
+			else{
 				System.out.println("Type help for all commands, or pray <3");
 			}
-
 			System.out.print("db > ");
 			line = console.nextLine();
 		}
-
 		console.close();
 	}
-
 }
 
 class Database {
