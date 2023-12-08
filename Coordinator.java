@@ -50,26 +50,11 @@ public class Coordinator {
 								"popularAircraft - select the 5 most used aircraft\n" +
 								"raw - anything you want");
 			} else if (parts[0].equals("repopulate")) {
-				db.runSQLStatements("Queries/dropAll.sql");
-				System.out.println("A");
-				db.runManySQL("Queries/insert_continents.sql");
-				System.out.println("B");
-				db.runManySQL("Queries/insert_countries.sql");
-				System.out.println("C");
-				db.runManySQL("Queries/insert_cities.sql");
-				System.out.println("D");
-				db.runManySQL("Queries/insert_airlines.sql");
-				System.out.println("E");
-				db.runManySQL("Queries/insert_airplanes.sql");
-				System.out.println("F");
-				db.runManySQL("Queries/insert_flightroutes.sql");
-				System.out.println("G");
-				db.runManySQL("Queries/insert_activeFlights.sql");
-				System.out.println("DONE");
+				db.repopulate();
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
 			} else if (parts[0].equals("airports")) {
-				db.airportsCountry(parts[1]);
+				db.airportsCountry();
 			} else if (parts[0].equals("airlineAirports")) {
 				db.airportsForAirline();
 			} else if (parts[0].equals("specialDest")) {
@@ -117,6 +102,28 @@ class Database {
 			e.printStackTrace(System.out);
 			System.exit(0);
 		}
+	}
+
+	public void repopulate() {
+		System.out.println("Dropping all tables...");
+		this.runSQLStatements("Queries/dropAll.sql");
+		System.out.println("Inserting Contintents");
+		this.runManySQL("Queries/insert_continents.sql");
+		System.out.println("Inserting Countries");
+		this.runManySQL("Queries/insert_countries.sql");
+		System.out.println("Inserting Cities");
+		this.runManySQL("Queries/insert_cities.sql");
+		System.out.println("Inserting Airports");
+		this.runManySQL("Queries/insert_airports.sql");
+		System.out.println("Inserting Airlines");
+		this.runManySQL("Queries/insert_airlines.sql");
+		System.out.println("Inserting Planes");
+		this.runManySQL("Queries/insert_airplanes.sql");
+		System.out.println("Inserting Routes");
+		this.runManySQL("Queries/insert_flightroutes.sql");
+		System.out.println("Inserting Active Flights");
+		this.runManySQL("Queries/insert_activeFlights.sql");
+		System.out.println("DONE");
 	}
 
 	public void runSQLStatements(String pathname) {
@@ -184,12 +191,13 @@ class Database {
 		}
 	}
 
-	public void airportsCountry(String country) {
+	public void airportsCountry() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT airportName FROM airports INNER JOIN cities on airport.cityID = cities.cityID where cities.iso_country = ?";
+			String query = "SELECT airportName FROM airports";// INNER JOIN cities on airport.cityID = cities.cityID
+																// where cities.iso_country = ?";
 			prepedStatement = connection.prepareStatement(query);
-			prepedStatement.setString(1, country);
+			// prepedStatement.setString(1, country);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
 				System.out.println("Data:");
