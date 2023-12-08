@@ -36,62 +36,46 @@ public class Coordinator {
 				arg = line.substring(line.indexOf(" ")).trim();
 			if (parts[0].equals("help")) {
 				System.out.println(
-					"Commands List:\n" +
-					"help - help\n" +
-					"drop - drops all tables\n" +
-					"repopulate - repopulates the entire database\n" +
-					"airports - returns all airports in a country\n" + 
-					"airlineAirports - selects which airports house a given airline\n" +
-					"specialDest - selects which routes are connected to a given destination\n" +
-					"largeAirports - selects all large airports\n" +
-					"airplanesAirlines - selects which airplanes are used by a given airline\n" +
-					"popularCities - selects the city with the most airlines\n" +
-					"unpopularCities - selects the city with the least airlines\n" +
-					"popularAircraft - select the 5 most used aircraft\n" +
-					"raw - anything you want"
-				);
+						"Commands List:\n" +
+								"help - help\n" +
+								"drop - drops all tables\n" +
+								"repopulate - repopulates the entire database\n" +
+								"airports - returns all airports in a country\n" +
+								"airlineAirports - selects which airports house a given airline\n" +
+								"specialDest - selects which routes are connected to a given destination\n" +
+								"largeAirports - selects all large airports\n" +
+								"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+								"popularCities - selects the city with the most airlines\n" +
+								"unpopularCities - selects the city with the least airlines\n" +
+								"popularAircraft - select the 5 most used aircraft\n" +
+								"raw - anything you want");
 			} else if (parts[0].equals("repopulate")) {
-				db.runSQLStatements("dropAll.sql");
-				System.out.println("A");
-				db.runManySQL("Queries/insert_continents.sql");
-				System.out.println("B");
-				db.runManySQL("Queries/insert_countries.sql");
-				System.out.println("C");
-				db.runManySQL("Queries/insert_cities.sql");
-				System.out.println("D");
-				db.runManySQL("Queries/insert_airlines.sql");
-				System.out.println("E");
-				db.runManySQL("Queries/insert_airplanes.sql");
-				System.out.println("F");
-				db.runManySQL("Queries/insert_flightroutes.sql");
-				System.out.println("G");
-				db.runManySQL("Queries/insert_activeFlights.sql");
-				System.out.println("DONE");
+				db.repopulate();
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
 			} else if (parts[0].equals("airports")) {
 				db.airportsCountry();
 			} else if (parts[0].equals("airlineAirports")) {
 				db.airportsForAirline();
-			}else if (parts[0].equals("specialDest")) {
+			} else if (parts[0].equals("specialDest")) {
 				db.specialDestination();
-			}else if (parts[0].equals("largeAirports")) {
+			} else if (parts[0].equals("largeAirports")) {
 				db.largeAirports();
-			}else if (parts[0].equals("airplanesAirlines")) {
+			} else if (parts[0].equals("airplanesAirlines")) {
 				db.airplanesForAirlines();
-			}else if (parts[0].equals("popularCities")) {
+			} else if (parts[0].equals("popularCities")) {
 				db.popularCities();
-			}else if (parts[0].equals("unpopularCities")) {
+			} else if (parts[0].equals("unpopularCities")) {
 				db.unpopularCities();
-			}else if (parts[0].equals("popularAircraft")) {
+			} else if (parts[0].equals("popularAircraft")) {
 				db.popularAircraft();
-			}else if (parts[0].equals("raw")) {
+			} else if (parts[0].equals("raw")) {
 				String request = "";
-				for(int i = 4; i < parts.length; i++){
+				for (int i = 4; i < parts.length; i++) {
 					request += parts[4];
 				}
 				db.raw(request, parts[1], parts[2], parts[3]);
-			}else {
+			} else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
 			System.out.print("db > ");
@@ -118,6 +102,28 @@ class Database {
 			e.printStackTrace(System.out);
 			System.exit(0);
 		}
+	}
+
+	public void repopulate() {
+		System.out.println("Dropping all tables...");
+		this.runSQLStatements("Queries/dropAll.sql");
+		System.out.println("Inserting Contintents");
+		this.runManySQL("Queries/insert_continents.sql");
+		System.out.println("Inserting Countries");
+		this.runManySQL("Queries/insert_countries.sql");
+		System.out.println("Inserting Cities");
+		this.runManySQL("Queries/insert_cities.sql");
+		System.out.println("Inserting Airports");
+		this.runManySQL("Queries/insert_airports.sql");
+		System.out.println("Inserting Airlines");
+		this.runManySQL("Queries/insert_airlines.sql");
+		System.out.println("Inserting Planes");
+		this.runManySQL("Queries/insert_airplanes.sql");
+		System.out.println("Inserting Routes");
+		this.runManySQL("Queries/insert_flightroutes.sql");
+		System.out.println("Inserting Active Flights");
+		this.runManySQL("Queries/insert_activeFlights.sql");
+		System.out.println("DONE");
 	}
 
 	public void runSQLStatements(String pathname) {
@@ -188,13 +194,15 @@ class Database {
 	public void airportsCountry() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = "SELECT airportName FROM airports";// INNER JOIN cities on airport.cityID = cities.cityID
+																// where cities.iso_country = ?";
 			prepedStatement = connection.prepareStatement(query);
+			// prepedStatement.setString(1, country);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
 				System.out.println("Data:");
 				do {
-					String name = result.getString("name");
+					String name = result.getString("airportName");
 					System.out.println(name);
 				} while (result.next());
 			} else {
@@ -328,12 +336,11 @@ class Database {
 	public void popularAircraft() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = 
-				"SELECT airplane, count(icaoCode) as planes " +
-				"FROM airplanes " + 
-				"LEFT JOIN activeFlights on airplanes.icaoCode = activeFlights.aircraftID " + 
-				"GROUP BY count(icaoCode)" + 
-				"FETCH FIRST 5 ROWS ONLY";
+			String query = "SELECT airplane, count(icaoCode) as planes " +
+					"FROM airplanes " +
+					"LEFT JOIN activeFlights on airplanes.icaoCode = activeFlights.aircraftID " +
+					"GROUP BY count(icaoCode)" +
+					"FETCH FIRST 5 ROWS ONLY";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
