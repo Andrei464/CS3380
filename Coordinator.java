@@ -47,17 +47,17 @@ public class Coordinator {
 			} else if (parts[0].equals("repopulate")) {
 				System.out.println("dropAll.sql");
 				db.runSQLStatements("dropAll.sql");
-				System.out.println("insert_continents.sql");
-				db.runSQL("Queries/insert_continents.sql");
-				System.out.println("insert_countries.sql");
-				db.runSQL("Queries/insert_countries.sql");
-				System.out.println("insert_cities.sql");
-				db.runSQL("Queries/insert_cities.sql");
-				System.out.println("insert_airlines.sql");
-				db.runSQL("Queries/insert_airlines.sql");
-				System.out.println("insert_airplanes.sql");
-				db.runSQL("Queries/insert_airplanes.sql");
-				// System.out.println("F");
+				System.out.println("A");
+				db.runManySQL("Queries/insert_continents.sql");
+				System.out.println("B");
+				db.runManySQL("Queries/insert_countries.sql");
+				System.out.println("C");
+				db.runManySQL("Queries/insert_cities.sql");
+				System.out.println("D");
+				db.runManySQL("Queries/insert_airlines.sql");
+				System.out.println("E");
+				db.runManySQL("Queries/insert_airplanes.sql");
+				System.out.println("F");
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
 			} else {
