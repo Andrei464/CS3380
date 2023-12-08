@@ -47,7 +47,8 @@ public class Coordinator {
 					"airplanesAirlines - selects which airplanes are used by a given airline\n" +
 					"popularCities - selects the city with the most airlines\n" +
 					"unpopularCities - selects the city with the least airlines\n" +
-					"popularAircraft - select the 5 most used aircraft\n"
+					"popularAircraft - select the 5 most used aircraft\n" +
+					"raw - anything you want"
 				);
 			} else if (parts[0].equals("repopulate")) {
 				db.runSQLStatements("dropAll.sql");
@@ -84,6 +85,12 @@ public class Coordinator {
 				db.unpopularCities();
 			}else if (parts[0].equals("popularAircraft")) {
 				db.popularAircraft();
+			}else if (parts[0].equals("raw")) {
+				String request = "";
+				for(int i = 4; i < parts.length; i++){
+					request += parts[4];
+				}
+				db.raw(request, parts[1], parts[2], parts[3]);
 			}else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
@@ -326,7 +333,7 @@ class Database {
 				"FROM airplanes " + 
 				"LEFT JOIN activeFlights on airplanes.icaoCode = activeFlights.aircraftID " + 
 				"GROUP BY count(icaoCode)" + 
-				"LIMIT 5";
+				"FETCH FIRST 5 ROWS ONLY";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
@@ -335,6 +342,32 @@ class Database {
 					String name = result.getString("airplane");
 					int count = result.getInt("planes");
 					System.out.println(name + "\t\t\t" + count);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void raw(String query, String param1, String param2, String param3) {
+		try {
+			PreparedStatement prepedStatement;
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data: [airplane name]\t\t\t[amount flown]");
+				do {
+					try{
+						String var1 = result.getString(param1);
+						String var2 = result.getString(param2);
+						int var3 = result.getInt(param3);
+						System.out.println(var1 + "\t\t\t" + var2 + "\t\t\t" + var3);
+					}
+					catch ( Exception e){
+						System.out.println(e);
+					}
 				} while (result.next());
 			} else {
 				System.out.println("[Nothing Found]");
