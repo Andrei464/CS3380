@@ -192,7 +192,7 @@ class Database {
 	public void airports() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airports";
+			String query = "SELECT top 20 * FROM airports";
 			prepedStatement = connection.prepareStatement(query);
 			// prepedStatement.setString(1, country);
 			ResultSet result = prepedStatement.executeQuery();
