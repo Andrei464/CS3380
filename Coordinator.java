@@ -40,14 +40,14 @@ public class Coordinator {
 					"help - help\n" +
 					"drop - drops all tables\n" +
 					"repopulate - repopulates the entire database\n" +
-					"airports - returns all airports in a country" +
-					"airlineAirports - selects which airports house a given airline" +
-					"specialDest - selects which routes are connected to a given destination" +
-					"largeAirports - selects all large airports" +
-					"airplanesAirlines - selects which airplanes are used by a given airline" +
-					"popularCities - selects the city with the most airlines" +
-					"unpopularCities - selects the city with the least airlines" +
-					"popularAircraft - select the 5 most used aircraft"
+					"airports - returns all airports in a country\n" + 
+					"airlineAirports - selects which airports house a given airline\n" +
+					"specialDest - selects which routes are connected to a given destination\n" +
+					"largeAirports - selects all large airports\n" +
+					"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+					"popularCities - selects the city with the most airlines\n" +
+					"unpopularCities - selects the city with the least airlines\n" +
+					"popularAircraft - select the 5 most used aircraft\n"
 				);
 			} else if (parts[0].equals("repopulate")) {
 				db.runSQLStatements("dropAll.sql");
