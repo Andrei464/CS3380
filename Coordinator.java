@@ -109,10 +109,10 @@ class Database {
 		try {
 			// create a connection to the database
 			connection = DriverManager.getConnection(
-					"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
-							"user=" + args[0] + ";" +
-							"password=" + args[1] + ";" +
-							"trustServerCertificate=true");
+				"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
+				"user=" + args[0] + ";" +
+				"password=" + args[1] + ";" +
+				"trustServerCertificate=true");
 		} catch (SQLException e) {
 			System.out.println("Couldn't Connect to Database");
 			e.printStackTrace(System.out);
@@ -342,32 +342,6 @@ class Database {
 					String name = result.getString("airplane");
 					int count = result.getInt("planes");
 					System.out.println(name + "\t\t\t" + count);
-				} while (result.next());
-			} else {
-				System.out.println("[Nothing Found]");
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void raw(String query, String param1, String param2, String param3) {
-		try {
-			PreparedStatement prepedStatement;
-			prepedStatement = connection.prepareStatement(query);
-			ResultSet result = prepedStatement.executeQuery();
-			if (result.next()) {
-				System.out.println("Data: [airplane name]\t\t\t[amount flown]");
-				do {
-					try{
-						String var1 = result.getString(param1);
-						String var2 = result.getString(param2);
-						int var3 = result.getInt(param3);
-						System.out.println(var1 + "\t\t\t" + var2 + "\t\t\t" + var3);
-					}
-					catch ( Exception e){
-						System.out.println(e);
-					}
 				} while (result.next());
 			} else {
 				System.out.println("[Nothing Found]");
