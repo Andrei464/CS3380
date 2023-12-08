@@ -321,14 +321,20 @@ class Database {
 	public void popularAircraft() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = 
+				"SELECT airplane, count(icaoCode) as planes " +
+				"FROM airplanes " + 
+				"LEFT JOIN activeFlights on airplanes.icaoCode = activeFlights.aircraftID " + 
+				"GROUP BY count(icaoCode)" + 
+				"LIMIT 5";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
-				System.out.println("Data:");
+				System.out.println("Data: [airplane name]\t\t\t[amount flown]");
 				do {
-					String name = result.getString("name");
-					System.out.println(name);
+					String name = result.getString("airplane");
+					int count = result.getInt("planes");
+					System.out.println(name + "\t\t\t" + count);
 				} while (result.next());
 			} else {
 				System.out.println("[Nothing Found]");
