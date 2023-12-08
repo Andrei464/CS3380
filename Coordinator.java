@@ -61,7 +61,7 @@ public class Coordinator {
 				} else if (parts[0].equals("specialDest")) {
 					db.specialDestination();
 				} else if (parts[0].equals("largeAirports")) {
-					db.largeAirports(parts[0]);
+					db.largeAirports(parts[1]);
 				} else if (parts[0].equals("airplanesAirlines")) {
 					db.airplanesForAirlines(parts[1]);
 				} else if (parts[0].equals("popularCities")) {
@@ -76,6 +76,7 @@ public class Coordinator {
 				System.out.print("db > ");
 				line = console.nextLine();
 			}catch(ArrayIndexOutOfBoundsException e){
+				line = console.nextLine();
 				System.out.print("Need more arguments");
 			}
 		}
@@ -254,7 +255,7 @@ class Database {
 	public void largeAirports(String size) {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT airportName FROM airport where airport.airportSize = '?'";
+			String query = "SELECT airportName FROM airport where airport.airportSize = ?";
 			prepedStatement = connection.prepareStatement(query);
 			prepedStatement.setString(1, size);
 			ResultSet result = prepedStatement.executeQuery();
