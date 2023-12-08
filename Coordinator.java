@@ -31,49 +31,53 @@ public class Coordinator {
 
 		while (line != null && !line.equals("q")) {
 			// interface
-			parts = line.split("\\s+");
-			if (line.indexOf(" ") > 0)
-				arg = line.substring(line.indexOf(" ")).trim();
-			if (parts[0].equals("help")) {
-				System.out.println(
-					"Commands List:\n" +
-					"help - help\n" +
-					"drop - drops all tables\n" +
-					"repopulate - repopulates the entire database\n" +
-					"airports - returns all airports in a country\n" +
-					"airlineAirports - selects which airports house a given airline\n" +
-					"specialDest - selects which routes are connected to a given destination\n" +
-					"largeAirports - selects all large airports\n" +
-					"airplanesAirlines - selects which airplanes are used by a given airline\n" +
-					"popularCities - selects the city with the most airlines\n" +
-					"unpopularCities - selects the city with the least airlines\n" +
-					"popularAircraft - select the 5 most used aircraft\n"
-				);
-			} else if (parts[0].equals("repopulate")) {
-				db.repopulate();
-			} else if (parts[0].equals("drop")) {
-				db.runSQLStatements("Queries/dropAll.sql");
-			} else if (parts[0].equals("airports")) {
-				db.airportsCountry();
-			} else if (parts[0].equals("airlineAirports")) {
-				db.airportsForAirline();
-			} else if (parts[0].equals("specialDest")) {
-				db.specialDestination();
-			} else if (parts[0].equals("largeAirports")) {
-				db.largeAirports();
-			} else if (parts[0].equals("airplanesAirlines")) {
-				db.airplanesForAirlines();
-			} else if (parts[0].equals("popularCities")) {
-				db.popularCities();
-			} else if (parts[0].equals("unpopularCities")) {
-				db.unpopularCities();
-			} else if (parts[0].equals("popularAircraft")) {
-				db.popularAircraft();
-			} else {
-				System.out.println("Type help for all commands, or pray <3");
+			try{
+				parts = line.split("\\s+");
+				if (line.indexOf(" ") > 0)
+					arg = line.substring(line.indexOf(" ")).trim();
+				if (parts[0].equals("help")) {
+					System.out.println(
+						"Commands List:\n" +
+						"help - help\n" +
+						"drop - drops all tables\n" +
+						"repopulate - repopulates the entire database\n" +
+						"airports - returns all airports in a country\n" +
+						"airlineAirports - selects which airports house a given airline\n" +
+						"specialDest - selects which routes are connected to a given destination\n" +
+						"largeAirports - selects all large airports\n" +
+						"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+						"popularCities - selects the city with the most airlines\n" +
+						"unpopularCities - selects the city with the least airlines\n" +
+						"popularAircraft - select the 5 most used aircraft\n"
+					);
+				} else if (parts[0].equals("repopulate")) {
+					db.repopulate();
+				} else if (parts[0].equals("drop")) {
+					db.runSQLStatements("Queries/dropAll.sql");
+				} else if (parts[0].equals("airports")) {
+					db.airportsCountry();
+				} else if (parts[0].equals("airlineAirports")) {
+					db.airportsForAirline();
+				} else if (parts[0].equals("specialDest")) {
+					db.specialDestination();
+				} else if (parts[0].equals("largeAirports")) {
+					db.largeAirports(parts[0]);
+				} else if (parts[0].equals("airplanesAirlines")) {
+					db.airplanesForAirlines(parts[1]);
+				} else if (parts[0].equals("popularCities")) {
+					db.popularCities();
+				} else if (parts[0].equals("unpopularCities")) {
+					db.unpopularCities();
+				} else if (parts[0].equals("popularAircraft")) {
+					db.popularAircraft();
+				} else {
+					System.out.println("Type help for all commands, or pray <3");
+				}
+				System.out.print("db > ");
+				line = console.nextLine();
+			}catch(ArrayIndexOutOfBoundsException e){
+				System.out.print("Need more arguments");
 			}
-			System.out.print("db > ");
-			line = console.nextLine();
 		}
 		console.close();
 	}
@@ -247,11 +251,12 @@ class Database {
 		}
 	}
 
-	public void largeAirports() {
+	public void largeAirports(String size) {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = "SELECT airportName FROM airport where airport.airportSize = '?'";
 			prepedStatement = connection.prepareStatement(query);
+			prepedStatement.setString(1, size);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
 				System.out.println("Data:");
@@ -267,11 +272,16 @@ class Database {
 		}
 	}
 
-	public void airplanesForAirlines() {
+	public void airplanesForAirlines(String airline) {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = 
+				"SELECT aircraftID " + 
+				"from flightRoutes " +
+				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " +
+				"where monthFlown is NULL and airlines.IATA = ?";
 			prepedStatement = connection.prepareStatement(query);
+			prepedStatement.setString(1, airline);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
 				System.out.println("Data:");
@@ -344,10 +354,12 @@ class Database {
 	public void popularAircraft() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT airplane, count(icaoCode) as planes " +
-					"FROM airplanes " +
-					"LEFT JOIN flightRoutes on airplanes.icaoCode = flightRoutes.aircraftID " +
-					"GROUP BY count(icaoCode)";// +	"FETCH FIRST 5 ROWS ONLY"
+			String query = 
+				"SELECT airplane, count(icaoCode) as planes " +
+				"FROM airplanes " +
+				"LEFT JOIN flightRoutes on airplanes.icaoCode = flightRoutes.aircraftID " +
+				"GROUP BY airplane " + 
+				"ORDER BY count(icaoCode)";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
