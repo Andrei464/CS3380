@@ -65,8 +65,6 @@ INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 720B','B72','B
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 727','727','B727');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 727-100','721','B721');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 727-200','722','B722');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737','737',NULL);
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737 MAX 10','7MJ',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737 MAX 7','7M7','B37M');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737 MAX 8','7M8','B38M');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737 MAX 9','7M9','B39M');
@@ -78,7 +76,6 @@ INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737-600','736'
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737-700','73G','B737');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737-800','738','B738');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 737-900','739','B739');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747','747',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747 LCF Dreamlifter','74B','BLCF');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747-100','741','B741');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747-200','742','B742');
@@ -88,21 +85,17 @@ INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747-400D','74J
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747-8','748','B748');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747SP','74L','B74S');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 747SR','74R','B74R');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 757','757',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 757-200','752','B752');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 757-300','753','B753');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 767','767',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 767-200','762','B762');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 767-300','763','B763');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 767-400','764','B764');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777','777',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777-200','772','B772');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777-200LR','77L','B77L');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777-300','773','B773');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777-300ER','77W','B77W');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777-8','778','B778');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 777-9','779','B779');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 787','787',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 787-10','78J','B78X');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 787-8','788','B788');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Boeing 787-9','789','B789');
@@ -168,7 +161,6 @@ INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Douglas DC-9-30','D93
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Douglas DC-9-40','D94','DC94');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Douglas DC-9-50','D95','DC95');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer 170','E70','E170');
-INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer 175','E75',NULL);
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer 175 (long wing)','E7W','E75L');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer 175 (short wing)','E7W','E75S');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer 190','E90','E190');
