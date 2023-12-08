@@ -15,7 +15,7 @@ public class Coordinator {
 	public static void main(String[] args) {
 
 		// startup sequence
-		Database db = new Database();
+		Database db = new Database(args);
 		runConsole(db);
 		System.out.println("Exiting...");
 	}
@@ -67,10 +67,6 @@ public class Coordinator {
 				System.out.println("E");
 				db.runSQLStatements("Queries/insert_airplanes.sql");
 				System.out.println("F");
-				db.runSQL("Queries/");
-				db.runSQL("Queries/");
-				db.runSQL("Queries/");
-				db.runSQL("Queries/");
 			} else if (parts[0].equals("drop")) {
 				db.drop();
 			} else {
@@ -90,13 +86,13 @@ class Database {
 
 	private Connection connection;
 
-	public Database() {
+	public Database(String args[]) {
 		try {
 			// create a connection to the database
 			connection = DriverManager.getConnection(
 					"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
-							"user=sholokh1;" +
-							"password=7941961;" +
+							"user=" + args[0]  + ";" +
+							"password=" + args[1]  + ";" +
 							"trustServerCertificate=true");
 		} catch (SQLException e) {
 			System.out.println("Couldn't Connect to Database");
