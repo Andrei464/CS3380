@@ -36,16 +36,20 @@ public class Coordinator {
 				arg = line.substring(line.indexOf(" ")).trim();
 			if (parts[0].equals("help")) {
 				System.out.println(
-						"Commands List:\n" +
-								"help - help\n" +
-								"drop - drops all tables\n" +
-								"repopulate - repopulates the entire database\n" +
-								"" +
-								"" +
-								"" +
-								"");
+					"Commands List:\n" +
+					"help - help\n" +
+					"drop - drops all tables\n" +
+					"repopulate - repopulates the entire database\n" +
+					"airports - " +
+					"airlineAirports" +
+					"specialDest" +
+					"largeAirports" +
+					"airplanesAirlines" +
+					"popularCities" +
+					"unpopularCities" +
+					"popularAircraft"
+				);
 			} else if (parts[0].equals("repopulate")) {
-				System.out.println("dropAll.sql");
 				db.runSQLStatements("dropAll.sql");
 				System.out.println("A");
 				db.runManySQL("Queries/insert_continents.sql");
@@ -58,9 +62,27 @@ public class Coordinator {
 				System.out.println("E");
 				db.runManySQL("Queries/insert_airplanes.sql");
 				System.out.println("F");
+				db.runManySQL("Queries/insert_flightroutes.sql");
+				System.out.println("DONE");
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
-			} else {
+			} else if (parts[0].equals("airports")) {
+				db.airportsCountry();
+			} else if (parts[0].equals("airlineAirports")) {
+				db.airportsForAirline();
+			}else if (parts[0].equals("specialDest")) {
+				db.specialDestination();
+			}else if (parts[0].equals("largeAirports")) {
+				db.largeAirports();
+			}else if (parts[0].equals("airplanesAirlines")) {
+				db.airplanesForAirlines();
+			}else if (parts[0].equals("popularCities")) {
+				db.popularCities();
+			}else if (parts[0].equals("unpopularCities")) {
+				db.unpopularCities();
+			}else if (parts[0].equals("popularAircraft")) {
+				db.popularAircraft();
+			}else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
 			System.out.print("db > ");

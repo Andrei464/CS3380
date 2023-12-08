@@ -1,0 +1,11 @@
+create table flightRoutes(routeID integer primary key IDENTITY(1,1),origin varchar(4) not null,destination varchar(4) not null ,monthFlown integer, airlineID varchar(100) ,passengers integer,distance integer,aircraftID text);
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('MSP', 'ABR', 12, '20170', '2650', 257 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('OME', 'SHH', 7, '20330', '0', 122 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('RNO', 'ORD', 4, '19805', '6464', 1671 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('ATL', 'RDU', 12, '20437', '8371', 356 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('ONT', 'PHX', 3, '19393', '26254', 325 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('IGG', 'ILI', 7, '20346', '3', 46 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('PHX', 'SEA', 1, '19393', '6231', 1107 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('EMK', 'ANC', 1, '20455', '93', 485 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('BET', 'EEK', 11, '20324', '0', 40 )
+INSERT INTO flightRoutes (origin, destination, monthFlown, airlineID, passengers, distance) VALUES ('LPW', 'JNU', 8, '20337', '21', 137 )
