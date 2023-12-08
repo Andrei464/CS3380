@@ -255,14 +255,14 @@ class Database {
 	public void largeAirports(String size) {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT airportName FROM airport where airport.airportSize = ?";
+			String query = "SELECT airportName FROM airports where airports.airportSize = ?";
 			prepedStatement = connection.prepareStatement(query);
 			prepedStatement.setString(1, size);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
 				System.out.println("Data:");
 				do {
-					String name = result.getString("name");
+					String name = result.getString("airportName");
 					System.out.println(name);
 				} while (result.next());
 			} else {
