@@ -36,23 +36,23 @@ public class Coordinator {
 				arg = line.substring(line.indexOf(" ")).trim();
 			if (parts[0].equals("help")) {
 				System.out.println(
-						"Commands List:\n" +
-								"help - help\n" +
-								"drop - drops all tables\n" +
-								"repopulate - repopulates the entire database\n" +
-								"airports - returns all airports in a country\n" +
-								"airlineAirports - selects which airports house a given airline\n" +
-								"specialDest - selects which routes are connected to a given destination\n" +
-								"largeAirports - selects all large airports\n" +
-								"airplanesAirlines - selects which airplanes are used by a given airline\n" +
-								"popularCities - selects the city with the most airlines\n" +
-								"unpopularCities - selects the city with the least airlines\n" +
-								"popularAircraft - select the 5 most used aircraft\n" +
-								"raw - anything you want");
+					"Commands List:\n" +
+					"help - help\n" +
+					"drop - drops all tables\n" +
+					"repopulate - repopulates the entire database\n" +
+					"airports - returns all airports in a country\n" +
+					"airlineAirports - selects which airports house a given airline\n" +
+					"specialDest - selects which routes are connected to a given destination\n" +
+					"largeAirports - selects all large airports\n" +
+					"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+					"popularCities - selects the city with the most airlines\n" +
+					"unpopularCities - selects the city with the least airlines\n" +
+					"popularAircraft - select the 5 most used aircraft\n"
+				);
 			} else if (parts[0].equals("repopulate")) {
 				db.repopulate();
 			} else if (parts[0].equals("drop")) {
-				db.runSQLStatements("dropAll.sql");
+				db.runSQLStatements("Queries/dropAll.sql");
 			} else if (parts[0].equals("airports")) {
 				db.airportsCountry();
 			} else if (parts[0].equals("airlineAirports")) {
@@ -69,12 +69,6 @@ public class Coordinator {
 				db.unpopularCities();
 			} else if (parts[0].equals("popularAircraft")) {
 				db.popularAircraft();
-			} else if (parts[0].equals("raw")) {
-				String request = "";
-				for (int i = 4; i < parts.length; i++) {
-					request += parts[4];
-				}
-				db.raw(request, parts[1], parts[2], parts[3]);
 			} else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
@@ -151,10 +145,10 @@ class Database {
 		}
 	}
 
-	public void runManySQL(String file) {
+	public void runManySQL(String pathname) {
 		try {
 			Statement statement = connection.createStatement();
-			File database = new File(file);
+			File database = new File(pathname);
 			Scanner scanner = new Scanner(database);
 			// Need to make the statement not autocommit
 			String line = "";

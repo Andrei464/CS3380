@@ -173,6 +173,7 @@ INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer Legacy 450',N
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer Legacy 600','ER3','E35L');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer Phenom 100','EP1','E50P');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer Phenom 300','EP3','E55P');
+--INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer RJ135','ER3','E135');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer RJ140','ERD','E135');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Embraer RJ145','ER4','E145');
 INSERT INTO airplanes(airplane,iataCode,icaoCode) VALUES ('Fairchild Dornier 328JET','FRJ','J328');
