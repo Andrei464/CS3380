@@ -22,18 +22,7 @@ create table aircraft
     numberOwned integer not null
 );
 
-create table flightRoutes
-(
-    routeID integer primary key IDENTITY(1,1),
-    origin varchar(4) not null references airports(icaoCode),
-    destination varchar(4) not null references airports(icaoCode),
-    monthFlown integer,
-    carrier text,
-    airlineID varchar(100) references airlines,
-    passengers integer,
-    distance integer,
-    aircraftID text
-);
+
 
 create table waypoints
 (

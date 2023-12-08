@@ -176,7 +176,127 @@ class Database {
 		}
 	}
 
-	public void test() {
+	public void airportsForAirline() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void specialDestination() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void largeAirports() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void airplanesForAirlines() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void popularCities() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void unpopularCities() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void popularAircraft() {
 		try {
 			PreparedStatement prepedStatement;
 			String query = "SELECT * FROM airlines";
