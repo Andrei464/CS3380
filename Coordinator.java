@@ -31,31 +31,30 @@ public class Coordinator {
 
 		while (line != null && !line.equals("q")) {
 			// interface
-			try{
+			try {
 				parts = line.split("\\s+");
 				if (line.indexOf(" ") > 0)
 					arg = line.substring(line.indexOf(" ")).trim();
 				if (parts[0].equals("help")) {
 					System.out.println(
-						"Commands List:\n" +
-						"help - help\n" +
-						"drop - drops all tables\n" +
-						"repopulate - repopulates the entire database\n" +
-						"airports - returns all airports in a country\n" +
-						"airlineAirports - selects which airports house a given airline\n" +
-						"specialDest - selects which routes are connected to a given destination\n" +
-						"largeAirports - selects all large airports\n" +
-						"airplanesAirlines - selects which airplanes are used by a given airline\n" +
-						"popularCities - selects the city with the most airlines\n" +
-						"unpopularCities - selects the city with the least airlines\n" +
-						"popularAircraft - select the 5 most used aircraft\n"
-					);
+							"Commands List:\n" +
+									"help - help\n" +
+									"drop - drops all tables\n" +
+									"repopulate - repopulates the entire database\n" +
+									"airports - returns all airports in a country\n" +
+									"airlineAirports - selects which airports house a given airline\n" +
+									"specialDest - selects which routes are connected to a given destination\n" +
+									"largeAirports - selects all large airports\n" +
+									"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+									"popularCities - selects the city with the most airlines\n" +
+									"unpopularCities - selects the city with the least airlines\n" +
+									"popularAircraft - select the 5 most used aircraft\n");
 				} else if (parts[0].equals("repopulate")) {
 					db.repopulate();
 				} else if (parts[0].equals("drop")) {
 					db.runSQLStatements("Queries/dropAll.sql");
 				} else if (parts[0].equals("airports")) {
-					db.airportsCountry();
+					db.airports();
 				} else if (parts[0].equals("airlineAirports")) {
 					db.airportsForAirline();
 				} else if (parts[0].equals("largeAirports")) {
@@ -73,7 +72,7 @@ public class Coordinator {
 				}
 				System.out.print("db > ");
 				line = console.nextLine();
-			}catch(ArrayIndexOutOfBoundsException e){
+			} catch (ArrayIndexOutOfBoundsException e) {
 				line = console.nextLine();
 				System.out.print("Need more arguments");
 			}
@@ -90,10 +89,10 @@ class Database {
 		try {
 			// create a connection to the database
 			connection = DriverManager.getConnection(
-				"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
-				"user=" + args[0] + ";" +
-				"password=" + args[1] + ";" +
-				"trustServerCertificate=true");
+					"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
+							"user=" + args[0] + ";" +
+							"password=" + args[1] + ";" +
+							"trustServerCertificate=true");
 		} catch (SQLException e) {
 			System.out.println("Couldn't Connect to Database");
 			e.printStackTrace(System.out);
@@ -188,11 +187,10 @@ class Database {
 		}
 	}
 
-	public void airportsCountry() {
+	public void airports() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT airportName FROM airports";// INNER JOIN cities on airport.cityID = cities.cityID
-																// where cities.iso_country = ?";
+			String query = "SELECT top 20 * FROM airports";
 			prepedStatement = connection.prepareStatement(query);
 			// prepedStatement.setString(1, country);
 			ResultSet result = prepedStatement.executeQuery();
@@ -213,7 +211,7 @@ class Database {
 	public void airportsForAirline() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = "SELECT top 20 * FROM airlines";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
@@ -254,11 +252,10 @@ class Database {
 	public void airplanesForAirlines(String airline) {
 		try {
 			PreparedStatement prepedStatement;
-			String query = 
-				"SELECT aircraftID " + 
-				"from flightRoutes " +
-				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " +
-				"where monthFlown is NULL and airlines.IATA = ?";
+			String query = "SELECT aircraftID " +
+					"from flightRoutes " +
+					"left join airlines on flightRoutes.airlineID = airlines.AirlineID " +
+					"where monthFlown is NULL and airlines.IATA = ?";
 			prepedStatement = connection.prepareStatement(query);
 			prepedStatement.setString(1, airline);
 			ResultSet result = prepedStatement.executeQuery();
@@ -279,14 +276,13 @@ class Database {
 	public void popularCities() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = 
-				"SELECT municipality, count(municipality) " + 
-				"from flightRoutes " + 
-				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " + 
-				"left join airports on flightRoutes.origin = airports.iataCode " + 
-				"left join cities on cities.city_id = airports.city_id " + 
-				"group by municipality " + 
-				"order by count(municipality)";
+			String query = "SELECT municipality, count(municipality) " +
+					"from flightRoutes " +
+					"left join airlines on flightRoutes.airlineID = airlines.AirlineID " +
+					"left join airports on flightRoutes.origin = airports.iataCode " +
+					"left join cities on cities.city_id = airports.city_id " +
+					"group by municipality " +
+					"order by count(municipality)";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
@@ -306,14 +302,13 @@ class Database {
 	public void unpopularCities() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = 
-				"SELECT municipality, count(municipality) " + 
-				"from flightRoutes " + 
-				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " + 
-				"left join airports on flightRoutes.destination = airports.iataCode " + 
-				"left join cities on cities.city_id = airports.city_id " + 
-				"group by municipality " + 
-				"order by count(municipality)";
+			String query = "SELECT municipality, count(municipality) " +
+					"from flightRoutes " +
+					"left join airlines on flightRoutes.airlineID = airlines.AirlineID " +
+					"left join airports on flightRoutes.destination = airports.iataCode " +
+					"left join cities on cities.city_id = airports.city_id " +
+					"group by municipality " +
+					"order by count(municipality)";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
@@ -333,12 +328,11 @@ class Database {
 	public void popularAircraft() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = 
-				"SELECT airplane, count(icaoCode) as planes " +
-				"FROM airplanes " +
-				"LEFT JOIN flightRoutes on airplanes.icaoCode = flightRoutes.aircraftID " +
-				"GROUP BY airplane " + 
-				"ORDER BY count(icaoCode)";
+			String query = "SELECT airplane, count(icaoCode) as planes " +
+					"FROM airplanes " +
+					"LEFT JOIN flightRoutes on airplanes.icaoCode = flightRoutes.aircraftID " +
+					"GROUP BY airplane " +
+					"ORDER BY count(icaoCode)";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
