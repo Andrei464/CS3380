@@ -41,13 +41,13 @@ public class Coordinator {
 					"drop - drops all tables\n" +
 					"repopulate - repopulates the entire database\n" +
 					"airports - " +
-					"airlineAirports" +
-					"specialDest" +
-					"largeAirports" +
-					"airplanesAirlines" +
-					"popularCities" +
-					"unpopularCities" +
-					"popularAircraft"
+					"airlineAirports - " +
+					"specialDest - " +
+					"largeAirports - " +
+					"airplanesAirlines - " +
+					"popularCities - " +
+					"unpopularCities - " +
+					"popularAircraft - "
 				);
 			} else if (parts[0].equals("repopulate")) {
 				db.runSQLStatements("dropAll.sql");
@@ -173,6 +173,26 @@ class Database {
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
 			System.out.println("File Not Found");
+		}
+	}
+
+	public void airportsCountry() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 	}
 
