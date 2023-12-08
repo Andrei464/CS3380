@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS countries;
 
-create table countries(iso_country varchar(2) PRIMARY key,country text,iso_region varchar(2) references continents);
+create table countries(iso_country varchar(2) PRIMARY key,country text, iso_region varchar(2) references continents);
 
 INSERT INTO countries (iso_country, country, iso_region)VALUES    ('CA', 'Canada', 'NA');
 INSERT INTO countries (iso_country, country, iso_region)VALUES    ('GT', 'Guatemala', 'NA');
