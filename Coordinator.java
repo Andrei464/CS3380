@@ -40,14 +40,15 @@ public class Coordinator {
 								"help - help\n" +
 								"drop - drops all tables\n" +
 								"repopulate - repopulates the entire database\n" +
-								"airports - " +
-								"airlineAirports - " +
-								"specialDest - " +
-								"largeAirports - " +
-								"airplanesAirlines - " +
-								"popularCities - " +
-								"unpopularCities - " +
-								"popularAircraft - ");
+								"airports - returns all airports in a country\n" +
+								"airlineAirports - selects which airports house a given airline\n" +
+								"specialDest - selects which routes are connected to a given destination\n" +
+								"largeAirports - selects all large airports\n" +
+								"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+								"popularCities - selects the city with the most airlines\n" +
+								"unpopularCities - selects the city with the least airlines\n" +
+								"popularAircraft - select the 5 most used aircraft\n" +
+								"raw - anything you want");
 			} else if (parts[0].equals("repopulate")) {
 				db.runSQLStatements("Queries/dropAll.sql");
 				System.out.println("A");
@@ -83,6 +84,12 @@ public class Coordinator {
 				db.unpopularCities();
 			} else if (parts[0].equals("popularAircraft")) {
 				db.popularAircraft();
+			} else if (parts[0].equals("raw")) {
+				String request = "";
+				for (int i = 4; i < parts.length; i++) {
+					request += parts[4];
+				}
+				db.raw(request, parts[1], parts[2], parts[3]);
 			} else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
@@ -321,14 +328,44 @@ class Database {
 	public void popularAircraft() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = "SELECT airplane, count(icaoCode) as planes " +
+					"FROM airplanes " +
+					"LEFT JOIN activeFlights on airplanes.icaoCode = activeFlights.aircraftID " +
+					"GROUP BY count(icaoCode)" +
+					"FETCH FIRST 5 ROWS ONLY";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
-				System.out.println("Data:");
+				System.out.println("Data: [airplane name]\t\t\t[amount flown]");
 				do {
-					String name = result.getString("name");
-					System.out.println(name);
+					String name = result.getString("airplane");
+					int count = result.getInt("planes");
+					System.out.println(name + "\t\t\t" + count);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void raw(String query, String param1, String param2, String param3) {
+		try {
+			PreparedStatement prepedStatement;
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data: [airplane name]\t\t\t[amount flown]");
+				do {
+					try {
+						String var1 = result.getString(param1);
+						String var2 = result.getString(param2);
+						int var3 = result.getInt(param3);
+						System.out.println(var1 + "\t\t\t" + var2 + "\t\t\t" + var3);
+					} catch (Exception e) {
+						System.out.println(e);
+					}
 				} while (result.next());
 			} else {
 				System.out.println("[Nothing Found]");
