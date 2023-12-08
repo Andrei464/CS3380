@@ -57,19 +57,18 @@ public class Coordinator {
 				System.out.println("Z");
 				db.runSQLStatements("dropAll.sql");
 				System.out.println("A");
-				db.runSQLStatements("Queries/insert_continents.sql");
+				db.runSQL("Queries/insert_continents.sql");
 				System.out.println("B");
-				db.runSQLStatements("Queries/insert_countries.sql");
+				db.runSQL("Queries/insert_countries.sql");
 				System.out.println("C");
-				db.runSQLStatements("Queries/insert_cities.sql");
+				db.runSQL("Queries/insert_cities.sql");
 				System.out.println("D");
-				db.runSQLStatements("Queries/insert_airlines.sql");
+				db.runSQL("Queries/insert_airlines.sql");
 				System.out.println("E");
-				db.runSQLStatements("Queries/insert_airplanes.sql");
+				db.runSQL("Queries/insert_airplanes.sql");
 				System.out.println("F");
 			} else if (parts[0].equals("drop")) {
-				db.drop();
-			} else {
+				db.runSQLStatements("dropAll.sql");
 				System.out.println("Type help for all commands, or pray <3");
 			}
 
@@ -90,19 +89,15 @@ class Database {
 		try {
 			// create a connection to the database
 			connection = DriverManager.getConnection(
-					"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
-							"user=" + args[0]  + ";" +
-							"password=" + args[1]  + ";" +
-							"trustServerCertificate=true");
+				"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
+				"user=" + args[0]  + ";" +
+				"password=" + args[1]  + ";" +
+				"trustServerCertificate=true");
 		} catch (SQLException e) {
 			System.out.println("Couldn't Connect to Database");
 			e.printStackTrace(System.out);
 			System.exit(0);
 		}
-	}
-
-	public void drop() {
-		runSQLStatements("dropAll.sql");
 	}
 
 	public void runSQLStatements(String pathname) {
@@ -115,7 +110,6 @@ class Database {
 			connection.setAutoCommit(false);
 			while (scanner.hasNextLine()) {
 				line = scanner.nextLine();
-				System.out.println(line);
 				if (line != "" && line != null) {
 					statement.executeUpdate(line);
 				}
