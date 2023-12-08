@@ -30,15 +30,6 @@ public class Coordinator {
 		String arg = "";
 
 		while (line != null && !line.equals("q")) {
-			// airports by country
-			// all airports
-			// airlines by destination
-			// large/medium/small airports by country
-			// which airplaines are used by which airlines which airline uses what airplanes
-			// shortest route????
-
-			// write up
-
 			// interface
 			parts = line.split("\\s+");
 			if (line.indexOf(" ") > 0)
@@ -47,8 +38,8 @@ public class Coordinator {
 				System.out.println(
 						"Commands List:\n" +
 								"help - help\n" +
-								"schema - database schema\n" +
-								"" +
+								"drop - drops all tables\n" +
+								"repopulate - repopulates the entire database\n" +
 								"" +
 								"" +
 								"" +
@@ -69,16 +60,14 @@ public class Coordinator {
 				// System.out.println("F");
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
+			} else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
-
 			System.out.print("db > ");
 			line = console.nextLine();
 		}
-
 		console.close();
 	}
-
 }
 
 class Database {
@@ -111,6 +100,7 @@ class Database {
 			while (scanner.hasNextLine()) {
 				line = scanner.nextLine();
 				if (line != "" && line != null) {
+					System.out.println(line);
 					statement.executeUpdate(line);
 				}
 			}
@@ -124,7 +114,7 @@ class Database {
 		}
 	}
 
-	public void runSQL(String file) {
+	public void runManySQL(String file) {
 		try {
 			Statement statement = connection.createStatement();
 			File database = new File(file);
