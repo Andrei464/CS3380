@@ -236,7 +236,7 @@ class Database {
 			if (result.next()) {
 				System.out.println("Data:");
 				do {
-					String name = result.getString("name");
+					String name = result.getString("AirlineName");
 					System.out.println(name);
 				} while (result.next());
 			} else {
@@ -290,7 +290,14 @@ class Database {
 	public void popularCities() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = 
+				"SELECT municipality, count(municipality) " + 
+				"from flightRoutes " + 
+				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " + 
+				"left join airports on flightRoutes.origin = airports.iataCode " + 
+				"left join cities on cities.city_id = airports.city_id " + 
+				"group by municipality " + 
+				"order by count(municipality)";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
@@ -310,7 +317,12 @@ class Database {
 	public void unpopularCities() {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = "SELECT municipality, count(municipality) " + 
+				"from fightRoutes " + 
+				"left join airlines on flightRoutes.airlineID = airliens.AirlineID " + 
+				"left join airports on flightRoutes.destination = airports.iataCode " + 
+				"group by municipality " + 
+				"order by count(municipality)";
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
@@ -332,9 +344,8 @@ class Database {
 			PreparedStatement prepedStatement;
 			String query = "SELECT airplane, count(icaoCode) as planes " +
 					"FROM airplanes " +
-					"LEFT JOIN activeFlights on airplanes.icaoCode = activeFlights.aircraftID " +
-					"GROUP BY count(icaoCode)" +
-					"FETCH FIRST 5 ROWS ONLY";
+					"LEFT JOIN flightRoutes on airplanes.icaoCode = flightRoutes.aircraftID " +
+					"GROUP BY count(icaoCode)";// +	"FETCH FIRST 5 ROWS ONLY"
 			prepedStatement = connection.prepareStatement(query);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {

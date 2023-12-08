@@ -1,4 +1,4 @@
-CREATE TABLE airlines(AirlineID INTEGER,AirlineName VARCHAR(81) NOT NULL,Alias VARCHAR(30),IATA VARCHAR(3),ICAO VARCHAR(5) PRIMARY KEY,Callsign VARCHAR(50));
+CREATE TABLE airlines(AirlineID varchar(100),AirlineName VARCHAR(81) NOT NULL,Alias VARCHAR(30),IATA VARCHAR(3),ICAO VARCHAR(5) PRIMARY KEY,Callsign VARCHAR(50));
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (NULL,'135 Airways',NULL,NULL,'GNL','GENERAL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3,'1Time Airline',NULL,'1T','RNX','NEXTIME');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4,'2 Sqn No 1 Elementary Flying Training School',NULL,NULL,'WYT',NULL);
