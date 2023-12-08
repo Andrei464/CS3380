@@ -58,8 +58,6 @@ public class Coordinator {
 					db.airportsCountry();
 				} else if (parts[0].equals("airlineAirports")) {
 					db.airportsForAirline();
-				} else if (parts[0].equals("specialDest")) {
-					db.specialDestination();
 				} else if (parts[0].equals("largeAirports")) {
 					db.largeAirports(parts[1]);
 				} else if (parts[0].equals("airplanesAirlines")) {
@@ -222,26 +220,6 @@ class Database {
 				System.out.println("Data:");
 				do {
 					String name = result.getString("name");
-					System.out.println(name);
-				} while (result.next());
-			} else {
-				System.out.println("[Nothing Found]");
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void specialDestination() {
-		try {
-			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
-			prepedStatement = connection.prepareStatement(query);
-			ResultSet result = prepedStatement.executeQuery();
-			if (result.next()) {
-				System.out.println("Data:");
-				do {
-					String name = result.getString("AirlineName");
 					System.out.println(name);
 				} while (result.next());
 			} else {
