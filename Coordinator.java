@@ -31,49 +31,53 @@ public class Coordinator {
 
 		while (line != null && !line.equals("q")) {
 			// interface
-			parts = line.split("\\s+");
-			if (line.indexOf(" ") > 0)
-				arg = line.substring(line.indexOf(" ")).trim();
-			if (parts[0].equals("help")) {
-				System.out.println(
+			try{
+				parts = line.split("\\s+");
+				if (line.indexOf(" ") > 0)
+					arg = line.substring(line.indexOf(" ")).trim();
+				if (parts[0].equals("help")) {
+					System.out.println(
 						"Commands List:\n" +
-								"help - help\n" +
-								"drop - drops all tables\n" +
-								"repopulate - repopulates the entire database\n" +
-								"airports - returns all airports in a country\n" +
-								"airlineAirports - selects which airports house a given airline\n" +
-								"specialDest - selects which routes are connected to a given destination\n" +
-								"largeAirports - selects all large airports\n" +
-								"airplanesAirlines - selects which airplanes are used by a given airline\n" +
-								"popularCities - selects the city with the most airlines\n" +
-								"unpopularCities - selects the city with the least airlines\n" +
-								"popularAircraft - select the 5 most used aircraft\n");
-			} else if (parts[0].equals("repopulate")) {
-				db.repopulate();
-			} else if (parts[0].equals("drop")) {
-				db.runSQLStatements("Queries/dropAll.sql");
-			} else if (parts[0].equals("airports")) {
-				try {
-					db.airports(Integer.parseInt(parts[1]));
-				} catch (Exception e) {
-					System.out.println("Please write the number of records you want to see");
+						"help - help\n" +
+						"drop - drops all tables\n" +
+						"repopulate - repopulates the entire database\n" +
+						"airports - returns all airports in a country\n" +
+						"airlineAirports - selects which airports house a given airline\n" +
+						"specialDest - selects which routes are connected to a given destination\n" +
+						"largeAirports - selects all large airports\n" +
+						"airplanesAirlines - selects which airplanes are used by a given airline\n" +
+						"popularCities - selects the city with the most airlines\n" +
+						"unpopularCities - selects the city with the least airlines\n" +
+						"popularAircraft - select the 5 most used aircraft\n"
+					);
+				} else if (parts[0].equals("repopulate")) {
+					db.repopulate();
+				} else if (parts[0].equals("drop")) {
+					db.runSQLStatements("Queries/dropAll.sql");
+				} else if (parts[0].equals("airports")) {
+					db.airportsCountry();
+				} else if (parts[0].equals("airlineAirports")) {
+					db.airportsForAirline();
+				} else if (parts[0].equals("specialDest")) {
+					db.specialDestination();
+				} else if (parts[0].equals("largeAirports")) {
+					db.largeAirports(parts[1]);
+				} else if (parts[0].equals("airplanesAirlines")) {
+					db.airplanesForAirlines(parts[1]);
+				} else if (parts[0].equals("popularCities")) {
+					db.popularCities();
+				} else if (parts[0].equals("unpopularCities")) {
+					db.unpopularCities();
+				} else if (parts[0].equals("popularAircraft")) {
+					db.popularAircraft();
+				} else {
+					System.out.println("Type help for all commands, or pray <3");
 				}
-			} else if (parts[0].equals("airlineAirports")) {
-				db.airportsForAirline();
-			} else if (parts[0].equals("specialDest")) {
-				db.specialDestination();
-			} else if (parts[0].equals("largeAirports")) {
-				db.largeAirports();
-			} else if (parts[0].equals("airplanesAirlines")) {
-				db.airplanesForAirlines();
-			} else if (parts[0].equals("popularCities")) {
-				db.popularCities();
-			} else if (parts[0].equals("unpopularCities")) {
-				db.unpopularCities();
-			} else if (parts[0].equals("popularAircraft")) {
-				db.popularAircraft();
-			} else {
-				System.out.println("Type help for all commands, or pray <3");
+				System.out.print("db > ");
+				line = console.nextLine();
+			}catch(ArrayIndexOutOfBoundsException e){
+				line = console.nextLine();
+				System.out.print("Need more arguments");
 			}
 		}
 		console.close();
