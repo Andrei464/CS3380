@@ -92,10 +92,10 @@ class Database {
 		try {
 			// create a connection to the database
 			connection = DriverManager.getConnection(
-					"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
-							"user=" + args[0] + ";" +
-							"password=" + args[1] + ";" +
-							"trustServerCertificate=true");
+				"jdbc:sqlserver://uranium.cs.umanitoba.ca;" +
+				"user=" + args[0] + ";" +
+				"password=" + args[1] + ";" +
+				"trustServerCertificate=true");
 		} catch (SQLException e) {
 			System.out.println("Couldn't Connect to Database");
 			e.printStackTrace(System.out);
@@ -128,268 +128,253 @@ class Database {
 	public void runSQLStatements(String pathname) {
 		try {
 			Statement statement = connection.createStatement();
-	
-
-				// Need to ma
-
-				connection.setAutoCommit(fal
-
-					line = scanner.nextLine();
-					if 
-						System.out.println(line);
-						statement.executeUpdate(line);
-						
-								
-								ner.close();
-								ection.commit();
-				connection.setAutoCommit(
-				 catch (SQLException e) {
-				e.printStackTrace();
-				 catch (FileNot
-				
-			
-
-		
-			ublic void runManySQL(String pathname) {
-			try {
-				Statement statement = connection.createStat
-				File database = new File(pathname);
-				Scanner scanner = new Scanner(database);
-				// Need to make the statement not autocommit
-				String line = "";
-				while (scanner.hasNextLine()) {
-					line = scanner.nextLine();
-					if (line != "" && line != null) {
-						statement.addBatch(line);
-					}
+			File database = new File(pathname);
+			Scanner scanner = new Scanner(database);
+			// Need to make the statement not autocommit
+			String line = "";
+			connection.setAutoCommit(false);
+			while (scanner.hasNextLine()) {
+				line = scanner.nextLine();
+				if (line != "" && line != null) {
+					System.out.println(line);
+					statement.executeUpdate(line);
 				}
-				scanner.close();
-				connection.setAutoCommit(false);
-				int count[] = statement.executeBatch();
-				boolean rollBack = false;
-				for (int i = 0; i < count.length; i++) {
-					if (count[i] == -1) {
-			
-
-						break;
-					}
-				}
-				if (rollBack) {
-					System.out.println("ROLL BACK");
-					connection.rollback();
-				} else {
-					connection.commit();
-				}
-					
-					onnection.setAutoCommit(true);
-						atch (SQLException e) {
-						stem.out.println("FAILURE");
-					.
-				 
-				System.out.print
-				
-				
-			
-				blic void airports(i
-			try {
-				PreparedStatement prepedStatement;
-				
-			
-
-				ResultSet result = prepedStatement.exec
-				if (
-					System.out.println("Data:");
-					do {
-						String name = result.getString("airpor
-						System.out.println(name);
-					} while (result.
-				} else {
-					System.out.println("[Nothi
-					
-						atch (SQLException e) {
-					.
-				
-				
-				
-				blic void airportsForAirline() {
-				ry {
-				PreparedStatement prepedStatement;
-					tring query = "SELECT
-						epedStatement = connection.prepareStatement
-						sultSet result =
-						 (resu
-					S
-					
-						String name =
-						System.out.println(name);
-					} while (result.next()
-				} else {
-					System.out.println("
-				}
-
-				e.printStackTrace();
 			}
-				
-				
-			ublic void specialDestination() {
-				ry {
-				
-			
-
-				ResultSet result = prepedStatement.
-				if (
-					System.out.println("Data:");
-					do {
-						String name = result.getString("AirlineName");
-						System.out.println(name);
-					} while (result.next());
-				} else {
-					System.out.println("[Nothing
-					
-						atch (SQLException e) {
-						printStackTrace();
-					
-				
-					
-				b
-			try {
-				PreparedStatement pr
-				
-			
-
-				ResultSet result = prepedStateme
-				if (
-					System.out.println("Data:");
-					do {
-						String name = result.getString("airportName");
-						System.out.println(name);
-					} while (result.nex
-					 else {
-					Syst
-						
-						atch (SQLException e) {
-					.printStackTrace();
-				
-					
-				
-			ublic void airplanesForAir
-				ry {
-				
-			
-
-					"from flightRoutes " +
-					"le
-					"where monthFlown is NULL and air
-				prepedStatement = connection.prepareStat
-				prepedStatement.setString(1, airline);
-				ResultSet result = prepedStatement.executeQuery();
-				if (result.next()) {
-					System.out.println("Data:");
-					do {
-						String name = result.getString("name");
-						System.out.println(name);
-					} while (result.next());
-				} else {
-					System.out.println("[Nothing Found]");
-				}
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
+			scanner.close();
+			connection.commit();
+			connection.setAutoCommit(true);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			System.out.println("File Not Found");
 		}
+	}
 
-		public void popularCities() {
-			try {
-				PreparedStatement prepedStatement;
-				String query = "SELECT municipality, count(municipality) " +
-						"from flightRoutes " +
-						"left join airlines on flightRout
-						"left join airports on flightRoutes.origin = air
-						"left join cities 
-						"group by municipality " +
-						"or
-						epedStatement = connection.prepareStatement(qu
-						sultSet result = prepedSt
-					f (result.next()) {
-					System.
-					do {
-					
-						System.out.println(name
-					} while (result.nex
-				
-			
-
-			} catch (SQLException e) {
-				e.pr
-				
-				 
-						lic void unpopularCiti
-						y {
-						reparedStatement prepedStatement;
-				String query = "SELECT municipality, count(municipali
-						"from flightRoutes " +
-						"left join airlines on flightRoutes.airlineID = 
-						"left join airport
-						"left join cities on cities
-						"gr
-						"order by count(municipality)";
-						epedStatement = connectio
-					esultSet result = preped
-				if (resu
-					System.out.println("Data:");
-					
-						String name = result.ge
-						System.out.println
-				
-			
-
+	public void runManySQL(String pathname) {
+		try {
+			Statement statement = connection.createStatement();
+			File database = new File(pathname);
+			Scanner scanner = new Scanner(database);
+			// Need to make the statement not autocommit
+			String line = "";
+			while (scanner.hasNextLine()) {
+				line = scanner.nextLine();
+				if (line != "" && line != null) {
+					statement.addBatch(line);
 				}
-			} cat
-				e.printStackTrace();
-				
-						
-						
-						ic void popularAircraft() {
-						 {
-						eparedStatement prepedStat
-						ring query = 
-					"SELECT airplane, count(icaoCode) as planes " +
-					"FROM airplanes " +
-					"LEFT JOIN flightRo
-					"GROUP BY airplane " + 
-					"ORD
-						epedStatement = connection.prepareState
-						sultSet result = prepedSt
-					f (result.next()) {
-					System.
-					do {
-					
-						int count = result.getI
-						System.out.println
-				
-			
-
+			}
+			scanner.close();
+			connection.setAutoCommit(false);
+			int count[] = statement.executeBatch();
+			boolean rollBack = false;
+			for (int i = 0; i < count.length; i++) {
+				if (count[i] == -1) {
+					// an error occured and we need to rollback
+					rollBack = true;
+					break;
 				}
-			} cat
-				e.printStackTrace();
-				
-						
-						
-						
-						
-						
-						
-				
-				
-				
-					
-					
-						
-						
-					
-				
-					
-				
-			
-				
-			
-		
+			}
+			if (rollBack) {
+				System.out.println("ROLL BACK");
+				connection.rollback();
+			} else {
+				connection.commit();
+			}
+
+			connection.setAutoCommit(true);
+		} catch (SQLException e) {
+			System.out.println("FAILURE");
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			System.out.println("File Not Found");
+		}
+	}
+
+	public void airportsCountry() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT airportName FROM airports";// INNER JOIN cities on airport.cityID = cities.cityID
+																// where cities.iso_country = ?";
+			prepedStatement = connection.prepareStatement(query);
+			// prepedStatement.setString(1, country);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("airportName");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void airportsForAirline() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void specialDestination() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT * FROM airlines";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("AirlineName");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void largeAirports(String size) {
+		try {
+			PreparedStatement prepedStatement;
+			String query = "SELECT airportName FROM airports where airports.airportSize = ?";
+			prepedStatement = connection.prepareStatement(query);
+			prepedStatement.setString(1, size);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("airportName");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void airplanesForAirlines(String airline) {
+		try {
+			PreparedStatement prepedStatement;
+			String query = 
+				"SELECT aircraftID " + 
+				"from flightRoutes " +
+				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " +
+				"where monthFlown is NULL and airlines.IATA = ?";
+			prepedStatement = connection.prepareStatement(query);
+			prepedStatement.setString(1, airline);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void popularCities() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = 
+				"SELECT municipality, count(municipality) " + 
+				"from flightRoutes " + 
+				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " + 
+				"left join airports on flightRoutes.origin = airports.iataCode " + 
+				"left join cities on cities.city_id = airports.city_id " + 
+				"group by municipality " + 
+				"order by count(municipality)";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void unpopularCities() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = 
+				"SELECT municipality, count(municipality) " + 
+				"from flightRoutes " + 
+				"left join airlines on flightRoutes.airlineID = airlines.AirlineID " + 
+				"left join airports on flightRoutes.destination = airports.iataCode " + 
+				"left join cities on cities.city_id = airports.city_id " + 
+				"group by municipality " + 
+				"order by count(municipality)";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data:");
+				do {
+					String name = result.getString("name");
+					System.out.println(name);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void popularAircraft() {
+		try {
+			PreparedStatement prepedStatement;
+			String query = 
+				"SELECT airplane, count(icaoCode) as planes " +
+				"FROM airplanes " +
+				"LEFT JOIN flightRoutes on airplanes.icaoCode = flightRoutes.aircraftID " +
+				"GROUP BY airplane " + 
+				"ORDER BY count(icaoCode)";
+			prepedStatement = connection.prepareStatement(query);
+			ResultSet result = prepedStatement.executeQuery();
+			if (result.next()) {
+				System.out.println("Data: [airplane name]\t\t\t[amount flown]");
+				do {
+					String name = result.getString("airplane");
+					int count = result.getInt("planes");
+					System.out.println(name + "\t\t\t" + count);
+				} while (result.next());
+			} else {
+				System.out.println("[Nothing Found]");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}
