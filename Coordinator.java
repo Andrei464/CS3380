@@ -4,9 +4,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.sql.SQLException;
 import java.sql.PreparedStatement;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -37,7 +34,6 @@ public class Coordinator {
 			// all airports
 			// airlines by destination
 			// large/medium/small airports by country
-			// waypoints for a given route
 			// which airplaines are used by which airlines which airline uses what airplanes
 			// shortest route????
 
@@ -125,7 +121,6 @@ class Database {
 				line = scanner.nextLine();
 				System.out.println(line);
 				if (line != "" && line != null) {
-
 					statement.executeUpdate(line);
 				}
 			}
