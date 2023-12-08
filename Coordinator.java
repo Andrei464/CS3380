@@ -36,21 +36,20 @@ public class Coordinator {
 				arg = line.substring(line.indexOf(" ")).trim();
 			if (parts[0].equals("help")) {
 				System.out.println(
-					"Commands List:\n" +
-					"help - help\n" +
-					"drop - drops all tables\n" +
-					"repopulate - repopulates the entire database\n" +
-					"airports - " +
-					"airlineAirports - " +
-					"specialDest - " +
-					"largeAirports - " +
-					"airplanesAirlines - " +
-					"popularCities - " +
-					"unpopularCities - " +
-					"popularAircraft - "
-				);
+						"Commands List:\n" +
+								"help - help\n" +
+								"drop - drops all tables\n" +
+								"repopulate - repopulates the entire database\n" +
+								"airports - " +
+								"airlineAirports - " +
+								"specialDest - " +
+								"largeAirports - " +
+								"airplanesAirlines - " +
+								"popularCities - " +
+								"unpopularCities - " +
+								"popularAircraft - ");
 			} else if (parts[0].equals("repopulate")) {
-				db.runSQLStatements("dropAll.sql");
+				db.runSQLStatements("Queries/dropAll.sql");
 				System.out.println("A");
 				db.runManySQL("Queries/insert_continents.sql");
 				System.out.println("B");
@@ -69,22 +68,22 @@ public class Coordinator {
 			} else if (parts[0].equals("drop")) {
 				db.runSQLStatements("dropAll.sql");
 			} else if (parts[0].equals("airports")) {
-				db.airportsCountry();
+				db.airportsCountry(parts[1]);
 			} else if (parts[0].equals("airlineAirports")) {
 				db.airportsForAirline();
-			}else if (parts[0].equals("specialDest")) {
+			} else if (parts[0].equals("specialDest")) {
 				db.specialDestination();
-			}else if (parts[0].equals("largeAirports")) {
+			} else if (parts[0].equals("largeAirports")) {
 				db.largeAirports();
-			}else if (parts[0].equals("airplanesAirlines")) {
+			} else if (parts[0].equals("airplanesAirlines")) {
 				db.airplanesForAirlines();
-			}else if (parts[0].equals("popularCities")) {
+			} else if (parts[0].equals("popularCities")) {
 				db.popularCities();
-			}else if (parts[0].equals("unpopularCities")) {
+			} else if (parts[0].equals("unpopularCities")) {
 				db.unpopularCities();
-			}else if (parts[0].equals("popularAircraft")) {
+			} else if (parts[0].equals("popularAircraft")) {
 				db.popularAircraft();
-			}else {
+			} else {
 				System.out.println("Type help for all commands, or pray <3");
 			}
 			System.out.print("db > ");
@@ -178,16 +177,17 @@ class Database {
 		}
 	}
 
-	public void airportsCountry() {
+	public void airportsCountry(String country) {
 		try {
 			PreparedStatement prepedStatement;
-			String query = "SELECT * FROM airlines";
+			String query = "SELECT airportName FROM airports INNER JOIN cities on airport.cityID = cities.cityID where cities.iso_country = ?";
 			prepedStatement = connection.prepareStatement(query);
+			prepedStatement.setString(1, country);
 			ResultSet result = prepedStatement.executeQuery();
 			if (result.next()) {
 				System.out.println("Data:");
 				do {
-					String name = result.getString("name");
+					String name = result.getString("airportName");
 					System.out.println(name);
 				} while (result.next());
 			} else {
