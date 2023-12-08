@@ -46,7 +46,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (46,
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (47,'Aerocenter',NULL,NULL,'ACR','Escuela de Formacion de Pioltos Privados de Avion');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (48,'Antrak Air',NULL,'04','ABV','ANTRAK');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (49,'Airborne Express',NULL,'GB','ABX','ABEX');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (50,'ABX Air',NULL,'GB','ABX','ABEX');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (51,'ATA Brasil',NULL,NULL,'ABZ','ATA-BRAZIL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (5,'Avcard Services',NULL,NULL,'ACC',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (53,'Academy Airlines',NULL,NULL,'ACD','ACADEMY');
@@ -161,7 +160,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (165
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (166,'Algoma Airways',NULL,NULL,'AGG','ALGOMA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (167,'Altagna',NULL,NULL,'AGH','ALTAGNA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (168,'Angola Air Charter',NULL,NULL,'AGO','ANGOLA CHARTER');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (169,'Angola Air Charter',NULL,NULL,'AGO','ANGOLA CHARTER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (170,'AERFI Group',NULL,NULL,'AGP','AIR TARA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (171,'Aerogala',NULL,NULL,'AGQ','GALASERVICE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17,'Amadeus Global Travel Distribution',NULL,'1A','AGT','AMADEUS');
@@ -1356,7 +1354,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (136
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1368,'BCT Aviation',NULL,NULL,'BCT','BOBCAT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1369,'Business Aviation Center',NULL,NULL,'BCV','BUSINESS AVIATION');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1370,'Blue Dart Aviation',NULL,'BZ','BDA','BLUE DART');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1371,'B&H Airlines',NULL,'JA','BON','Air Bosna');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (137,'Bissau Discovery Flying Club',NULL,NULL,'BDF','BISSAU DISCOVERY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1373,'Belgian Army',NULL,NULL,'AYB','BELGIAN ARMY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1374,'Badr Airlines',NULL,NULL,'BDR','BADR AIR');
@@ -1601,7 +1598,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (161
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1617,'Canadian Eagle Aviation',NULL,NULL,'HIA','HAIDA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1618,'Canadian Forces',NULL,NULL,'CFC','CANFORCE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1619,'Canadian Global Air Ambulance',NULL,NULL,'BZD','BLIZZARD');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (160,'Canadian Helicopters',NULL,NULL,'CDN','CANADIAN');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (161,'Canadian Interagency Forest Fire Centre',NULL,NULL,'TKR','TANKER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16,'Canadian National Telecommunications',NULL,NULL,'XNC',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (163,'Canadian North',NULL,'5T','MPE','EMPRESS');
@@ -1869,7 +1865,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (188
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1887,'Cook Inlet Aviation',NULL,NULL,'CKA','COOK-AIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1888,'Cooper Aerial Surveys',NULL,NULL,'SVY','SURVEYOR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1889,'Copa Airlines',NULL,'CM','CMP','COPA');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1890,'Copenhagen Airtaxi',NULL,NULL,'CAT','AIRCAT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1891,'Copper State Air Service',NULL,NULL,'COP','COPPER STATE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (189,'Copterline',NULL,NULL,'AAQ','COPTERLINE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1893,'Coptrade Air Transport',NULL,NULL,'CCW','COPTRADE AIR');
@@ -2412,7 +2407,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (435
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (436,'Fokker',NULL,NULL,'FOP',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (437,'Fonnafly',NULL,NULL,'NOF','FONNA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (438,'Ford Motor Company',NULL,NULL,'FOB','FORDAIR');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (439,'Formosa Airlines',NULL,'VY','FOS',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (440,'Formula One Management',NULL,NULL,'FOR','FORMULA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (441,'Forth and Clyde Helicopter Services',NULL,NULL,'FHS','HELISCOT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (44,'Fortunair Canada',NULL,NULL,'FXC','AIR FUTURE');
@@ -2848,7 +2842,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (884
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (885,'Intercontinental de Aviaci',NULL,'RS','ICT','CONTAVIA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (886,'Intercopters',NULL,NULL,'ICP','CHOPER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (887,'Interflight',NULL,NULL,'IFT','INTERFLIGHT');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (888,'Interflight (Learjet)',NULL,NULL,'IJT',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (889,'Interfly',NULL,NULL,'RFL','INFLY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (890,'Interfreight Forwarding',NULL,NULL,'IFF','INTERFREIGHT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (891,'Interguide Air',NULL,NULL,'IGN','DIVINE AIR');
@@ -2916,7 +2909,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (954
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (955,'Istanbul Airlines',NULL,NULL,'IST','ISTANBUL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (956,'Itali Airlines',NULL,'9X','ACL','ITALI');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (957,'Italy First',NULL,NULL,'IFS','RIVIERA');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (958,'Itek Air',NULL,'GI','IKA','ITEK-AIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (959,'Ivoire Aero Services',NULL,NULL,'IVS','IVOIRE AERO');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (960,'Ivoire Airways',NULL,NULL,'IVW','IVOIRAIRWAYS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (961,'Ivoire Jet Express',NULL,NULL,'IJE','IVOIRE JET');
@@ -2945,7 +2937,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (984
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (985,'Japan Air Commuter',NULL,NULL,'JAC','COMMUTER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (986,'Japan Aircraft Service',NULL,NULL,'JSV',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (987,'Japan Airlines','JAL Japan Airlines','JL','JAL','JAPANAIR');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (988,'Japan Airlines Domestic',NULL,'JL','JAL','J-BIRD');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (989,'Japan Asia Airways',NULL,'EG','JAA','ASIA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (990,'Japan Transocean Air',NULL,'NU','JTA','JAI OCEAN');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (991,'Jat Airways',NULL,'JU','JAT','JAT');
@@ -3337,7 +3328,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (338
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3383,'Mall Airways',NULL,NULL,'MLS','MALL-AIRWAYS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3384,'Malmo Aviation',NULL,NULL,'SCW','SCANWING');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3385,'Malmoe Air Taxi',NULL,NULL,'LOD','LOGIC');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3386,'Malmö Aviation',NULL,'TF','SCW','Scanwings');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3387,'Malta Air Charter',NULL,'R5','MAC','MALTA CHARTER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3388,'Malta Wings',NULL,NULL,'MWS','MALTA WINGS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3389,'Malév',NULL,'MA','MAH','MALEV');
@@ -3518,7 +3508,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (356
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3567,'My Way Airlines',NULL,NULL,'MYW','FRANKY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3568,'MyTravel Airways',NULL,'VZ','MYT','KESTREL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3569,'Myanma Airways',NULL,'UB','UBA','UNIONAIR');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3570,'Myanmar Airways International',NULL,'8M','MMM','assignment postponed');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3571,'Myflug',NULL,NULL,'MYA','MYFLUG');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (357,'Mytravel Airways',NULL,NULL,'VKG','VIKING');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3573,'NEL Cargo',NULL,NULL,'NLG','NELCARGO');
@@ -3586,7 +3575,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (363
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3638,'Neos',NULL,'NO','NOS','MOONFLOWER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3639,'Neosiam Airways',NULL,NULL,'TOX','SKY KINGDOM');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3640,'Neric',NULL,NULL,'NSL','NERICAIR');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3641,'NetJets',NULL,'1I','EJA','EXECJET');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (364,'Network Aviation Services',NULL,NULL,'NET','NETWORK');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3643,'New England Air Express',NULL,NULL,'NEZ','ENGAIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3644,'New England Airlines',NULL,'EJ','NEA','NEW ENGLAND');
@@ -3601,7 +3589,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (365
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3653,'Nextflight Aviation',NULL,NULL,'NXF','NEXTFLIGHT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3654,'Nexus Aviation',NULL,NULL,'NXS','NEXUS AVIATION');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3655,'Nicaraguense De Aviacion',NULL,NULL,'NIS','NICA');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3656,'Nicon Airways',NULL,NULL,'NCN','NICON AIRWAYS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3657,'Nigeria Airways',NULL,NULL,'NGA','NIGERIA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3658,'Nigerian Air Force',NULL,NULL,'NGR','NIGERIAN AIRFORCE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3659,'Nigerian Global',NULL,NULL,'NGX','AIR GLOBAL');
@@ -3672,7 +3659,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (375
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (376,'Northland Aviation',NULL,NULL,'KOE','KOKEE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (377,'Northstar Aviation',NULL,NULL,'NSS','NORTHSTAR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (378,'Northumbria Helicopters',NULL,NULL,'NHL','NORTHUMBRIA');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (379,'Northway Aviation Ltd',NULL,NULL,'NAL','NORTHWAY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3730,'Northwest Aero Associates',NULL,NULL,'NWE',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3731,'Northwest Airlines',NULL,'NW','NWA','NORTHWEST');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (373,'Northwest Regional Airlines',NULL,'FY','NWR',NULL);
@@ -3765,7 +3751,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (380
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (381,'Ostend Air College',NULL,NULL,'OCO','AIR COLLEGE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (38,'Ostfriesische Lufttransport',NULL,'OL','OLT','OLTRA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (383,'Oulun Tilauslento',NULL,NULL,'FNL','FINN FLIGHT');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (384,'Our Airline',NULL,'ON','RON','OUR AIRLINE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (385,'Out Of The Blue Air Safaris',NULL,NULL,'OOT','OOTBAS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (386,'Overland Airways',NULL,'OJ','OLA','OVERLAND');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (387,'Oxaero',NULL,NULL,'OXE','OXOE');
@@ -3825,7 +3810,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (388
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (388,'Pan Am Weather Systems',NULL,NULL,'XPA',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3883,'Pan Am World Airways',NULL,NULL,'PWD',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3885,'Pan American Airways',NULL,'PA','PAA',NULL);
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3886,'Pan American World Airways',NULL,'PA','PAA','CLIPPER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3887,'Pan Europeenne Air Service',NULL,NULL,'PEA',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3888,'Pan Havacilik Ve Ticaret',NULL,NULL,'PHT','PANANK');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3889,'Pan Malaysian Air Transport',NULL,NULL,'PMA','PAN MALAYSIA');
@@ -3901,7 +3885,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (395
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3960,'Phoenix Air Lines',NULL,NULL,'PHN','PHOENIX BRASIL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3961,'Phoenix Air Service',NULL,NULL,'PAM','PHOENIX');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (396,'Phoenix Air Transport',NULL,NULL,'PPG','PAPAGO');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3963,'Phoenix Airline Services',NULL,NULL,'WDY','WINDYCITY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3965,'Phoenix Avia',NULL,NULL,'PHY','PHOENIX ARMENIA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3966,'Phoenix Aviation',NULL,NULL,'PHG','PHOENIX GROUP');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (3967,'Phoenix Flight Operations',NULL,NULL,'XPX',NULL);
@@ -4194,7 +4177,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (460
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (461,'Royal Khmer Airlines',NULL,'RK','RKH','KHMER AIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (46,'Royal Malaysian Air Force',NULL,NULL,'RMF','ANGKASA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (463,'Royal Navy',NULL,NULL,'NVY','NAVY');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (464,'Royal Nepal Airlines',NULL,'RA','RNA','ROYAL NEPAL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (465,'Royal Netherland Navy',NULL,NULL,'NRN','NETHERLANDS NAVY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (466,'Royal Netherlands Air Force',NULL,NULL,'NAF','NETHERLANDS AIR FORCE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (467,'Royal New Zealand Air Force',NULL,NULL,'KIW','KIWI');
@@ -4399,7 +4381,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (446
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4469,'Siem Reap Airways',NULL,'FT','SRH','SIEMREAP AIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4470,'Sky Work Airlines','SkyWork','SX','SRK','SKYFOX');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4471,'Swedline Express',NULL,'SM','SRL','Starline');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (447,'Servicios Aeronauticos Aero Personal',NULL,NULL,'SRL','SERVICIOS PERSONAL');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4473,'Sirair',NULL,NULL,'SRN','SIRAIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4474,'Servicios Aereos Ejecutivos Saereo',NULL,NULL,'SRO','SAEREO');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4475,'South East Asian Airlines',NULL,'DG','SRQ','SEAIR');
@@ -4441,7 +4422,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (451
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4511,'Streamline Ops',NULL,NULL,'STO','SLOPS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (451,'Star Air',NULL,NULL,'STQ','STERA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4513,'Servicios de Transportes A',NULL,'FS','STU','FUEGUINO');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4514,'Star African Air',NULL,NULL,'STU','STARSOM');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4515,'Southern Aviation',NULL,NULL,'STV','SOUTHERN AVIATION');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4516,'South West Air Corporation',NULL,NULL,'STW','SIERRA WHISKEY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4517,'Stars Away Aviation',NULL,NULL,'STX','STARSAWAY');
@@ -4487,7 +4467,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (455
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4557,'Star Work Sky',NULL,NULL,'SWP','STAR WORK');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4558,'Swift Air (Interstate Equipment Leasing)',NULL,NULL,'SWQ','SWIFTFLIGHT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4559,'Swiss International Air Lines','Swiss Airlines','LX','SWR','SWISS');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4560,'Swissair',NULL,'SR','SWR','Swissair');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4561,'Sunwest Aviation (Lindquist Investment)',NULL,NULL,'SWS','SUNNY WEST');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (456,'Swiftair',NULL,NULL,'SWT','SWIFT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4563,'Swiss European Air Lines','Swiss European',NULL,'SWU','EUROSWISS');
@@ -4645,7 +4624,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (474
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (475,'Skycraft',NULL,NULL,'SKF','SKYCRAFT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (476,'Skycraft Air Transport',NULL,NULL,'SKG','SKYCRAFT-CANADA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (477,'Skyking',NULL,NULL,'SKI','SKYKING');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (478,'SkyKing Turks and Caicos Airways',NULL,'RU','SKI','SKYKING');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (479,'Skylink Aviation',NULL,NULL,'SKK','SKYLINK');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4730,'Skycharter (Malton)',NULL,NULL,'SKL','SKYCHARTER');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4731,'Skyline Aviation Services',NULL,NULL,'SKN','SKYLINER');
@@ -4849,7 +4827,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (493
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4934,'Titan Airways',NULL,'ZT','AWC','ZAP');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4935,'Transport Canada',NULL,NULL,'TGO','TRANSPORT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4936,'Tiger Airways',NULL,'TR','TGW','GO CAT');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4937,'Tiger Airways Australia',NULL,'TT','TGW','GO CAT');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4938,'Transair Gabon]',NULL,NULL,'TGX','TRANSGABON');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4939,'Trans Guyana Airways',NULL,NULL,'TGY','TRANS GUYANA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (4940,'Thai Airways International',NULL,'TG','THA','THAI');
@@ -5321,7 +5298,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (541
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (54,'Western Air Couriers',NULL,NULL,'NPC','NORPAC');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (543,'Western Air Express',NULL,NULL,'WAE','WESTERN EXPRESS');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (544,'Western Airlines',NULL,'WA','WAL','WESTERN');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (545,'Western Arctic Air',NULL,NULL,'WAL','WESTERN ARCTIC');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (546,'Western Aviators',NULL,NULL,'WTV','WESTAVIA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (547,'Western Express Air Lines',NULL,NULL,'WES','WEST EX');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (548,'Western Pacific Airlines',NULL,NULL,'KMR','KOMSTAR');
@@ -5416,12 +5392,8 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (553
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (554,'Zoom Airways',NULL,NULL,'ZAW','ZED AIR');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (555,'Zorex',NULL,NULL,'ORZ','ZOREX');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (556,'Zracno Pristaniste Mali Losinj',NULL,NULL,'MLU','MALI LOSINJ');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (5533,'Tyrolean Airways',NULL,NULL,'TYR','TYROLEAN');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (5556,'buzz',NULL,'UK','BUZ',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (5584,'Sky Express','SkyExpress','XW','SXR','SKYSTORM');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (5651,'Royal Air Cambodge',NULL,'VJ','RAC',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (5833,'TEA Switzerland',NULL,NULL,'4SW',NULL);
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (598,'Air Busan',NULL,'BX','ABL','Air Busan');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (600,'TUI Airlines Belgium','now Jetairlfy','TB','TUB','BEAUTY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (618,'Arctic Air',NULL,NULL,'AKR','Arctic Norway');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (6183,'Braathens','Braathens SAFE','BU','BRA','Braathens');
@@ -5618,7 +5590,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (166
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1670,'Usa Sky Cargo','USky','E1','ES2','USKY');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16707,'Hankook Airline',NULL,'HN','HNX','HNX');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16719,'Hellenic Airways',NULL,'1H','HEY','Hellenic');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1673,'Sprintair',NULL,NULL,'SRN',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1675,'Marusya Airways','Marusya Air','Y8','MRS','snowball');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1676,'Era Alaska',NULL,'7H','ERR','ERAH');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1678,'AirRussia','RussianConector','R8','RRJ','russiancloud');
@@ -5644,7 +5615,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (169
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1693,'Orbit Airlines','Orbit',NULL,'OBT','Orbit');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16939,'Air Bucharest',NULL,NULL,'BUR',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16940,'AlbaStar',NULL,NULL,'LAV',NULL);
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1694,'Mauritania Airlines International',NULL,'L6','MAI',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16956,'MAT Airways',NULL,'6F','MKD',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16960,'Asian Wings Airways',NULL,'AW','AWM','Asian Star');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (16963,'Air Arabia Egypt',NULL,'E5','RBG',NULL);
@@ -5688,7 +5658,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (178
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1786,'Southjet cargo',NULL,'78','XAN',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17881,'Iberia Express',NULL,'I2','IBS',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17890,'Nordic Global Airlines',NULL,'NJ','NGB','Nordic Global');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17891,'Scoot',NULL,'TZ','SCO',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17893,'Starling Airlines Spain',NULL,'SX','STS','STARLING');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17935,'Zenith International Airline','Zenith','ZN','ZNA','ZENITH');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (17936,'Orbit Airlines Azerbaijan','Orbit Azerbaijan','O1','OAB','Orbitaz');
@@ -5722,7 +5691,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (187
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1873,'Malindo Air',NULL,'OD','MXD','Malindo');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (18749,'Tramm Airlines','Tramm Airlines','9F','TLM','9F');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (18781,'Hermes Airlines',NULL,NULL,'HRM','HERMES');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (18860,'Катэкавиа',NULL,NULL,'КТК',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (18863,'Псковавиа','Псков Авиа',NULL,'PKV',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (18896,'3 Valleys Airlines',NULL,'3V','VA3','3 Valleys');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (18930,'Maryland Air','Maryland','M1','M1F','Maryland Flight');
@@ -5764,9 +5732,7 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (195
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19538,'Vintage Props and Jets',NULL,NULL,'VPP','VINTAGE');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19548,'Yeti Airlines',NULL,NULL,'NYT',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19567,'Avilu','Avilu'' SA','..','...',NULL);
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (1958,'Air Serbia',NULL,'JU','ASL','AIR SERBIA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19599,'Skyline Ulasim Ticaret A.S.','Skyline Ulasim Ticaret A.S.',NULL,'KCU','Kocoglu');
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19610,'Air Lituanica','Air Lituanica','LT','LTU','LITUANICA');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19619,'Envoy Air',NULL,NULL,'ENY','Envoy');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19651,'CARICOM AIRWAYS (BARBADOS) INC.','CARICOM AIRWAYS',NULL,'CCB',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (19674,'Rainbow Air (RAI)','Rainbow Air (RAI)','RN','RAB','Rainbow');
@@ -5836,7 +5802,6 @@ INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (08,
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (085,'WestJet Encore','Encore','WR','WEN','Encore');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (086,'Air Pegasus',NULL,'OP','PPL',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (088,'International Europe','International','9I','INE',NULL);
-INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (093,'Sky Regional Airlines',NULL,NULL,'SKV','Maple');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (0401,'V Air','V Air Taiwan','ZV','VAX',NULL);
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (0415,'Cello Aviation',NULL,NULL,'CLJ','CELLOJET');
 INSERT INTO airlines(AirlineID,AirlineName,Alias,IATA,ICAO,Callsign) VALUES (0438,'Naka Nihon Airlines Service',NULL,'NV','ALS',NULL);
